@@ -1,0 +1,9 @@
+import(jaspBase)
+export(Trajectories)
+export(fitTrajectories)
+export(trajectoryFitStatistics)
+export(trajectoryParameters)
+export(trajectoryPredictions)
+export(trajectoryClassification)
+export(trajectoryObservedFit)
+

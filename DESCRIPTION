@@ -1,0 +1,18 @@
+Package: jaspTrajectories
+Type: Package
+Title: Latent Class Growth and Growth Mixture Models for JASP
+Version: 0.1.0
+Authors@R: person("Daniel", "Corcoran", role = c("aut", "cre"),
+    email = "particleapps@proton.me")
+Description: A focused JASP interface to the existing lcmm estimators for
+    continuous and ordinal longitudinal outcomes. Fits latent class growth
+    analyses and growth mixture models, with polynomial time effects,
+    model summaries, posterior classification and trajectory plots.
+License: GPL (>= 2)
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: lcmm (== 2.2.2), jaspBase, ggplot2, stats, utils
+URL: https://github.com/particle-apps
+Contact: Daniel Corcoran <particleapps@proton.me>
+NeedsCompilation: no
+

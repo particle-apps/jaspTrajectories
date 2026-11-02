@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>Latent class trajectories</title>
+  <path d="M9 8V55H58" fill="none" stroke="#556677" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="none" stroke-width="4" stroke-linecap="round">
+    <path d="M16 46C29 45 39 29 55 15" stroke="#2683B5"/>
+    <path d="M16 17C29 21 42 23 55 24" stroke="#5368AD"/>
+    <path d="M16 35C31 28 42 36 55 44" stroke="#36A697"/>
+  </g>
+</svg>
