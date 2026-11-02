@@ -1,0 +1,40 @@
+{
+  "review_date": "2026-11-02",
+  "purpose": "Restore applicable upstream libdeflate copyright and MIT permission notice without asserting the unestablished embedded library version.",
+  "notice_file": "LICENSE.libdeflate",
+  "upstream_project": "https://github.com/ebiggers/libdeflate",
+  "immutable_notice_url": "https://github.com/ebiggers/libdeflate/blob/439f30117684c7859e0b1d4d8c57306b9ad71fd4/COPYING",
+  "immutable_commit": "439f30117684c7859e0b1d4d8c57306b9ad71fd4",
+  "immutable_commit_date": "2024-04-05T00:16:33Z",
+  "release_comparison_url": "https://github.com/ebiggers/libdeflate/blob/v1.23/COPYING",
+  "historical_comparison_url": "https://github.com/ebiggers/libdeflate/blob/f2c3a5b4e9a457b15f2745bb70a3958e75fc3cf1/COPYING",
+  "history_api_url": "https://api.github.com/repos/ebiggers/libdeflate/commits?path=COPYING&per_page=100",
+  "verification": [
+    "Read official upstream COPYING at immutable commit and release v1.23; text identical.",
+    "Read COPYING at MIT-adoption commit f2c3a5b4e9a457b15f2745bb70a3958e75fc3cf1 dated 2016-05-21.",
+    "Permission/disclaimer text unchanged between reviewed MIT copies; only added line is Copyright 2024 Google LLC.",
+    "Reviewed COPYING history reports 2024 Google addition, 2016 MIT adoption and earlier 2016 CC0 text; supplied notice is the upstream MIT notice, not the historical CC0 dedication.",
+    "Notice file reproduces observed immutable upstream text exactly.",
+    "Local Git blob SHA-1 matches COPYING blob in official immutable upstream commit tree."
+  ],
+  "copyrights": [
+    "Copyright 2016 Eric Biggers",
+    "Copyright 2024 Google LLC"
+  ],
+  "recommended_install_paths": [
+    "jaspTrajectories/inst/third-party/LICENSE.libdeflate (source; installed as third-party/LICENSE.libdeflate)",
+    "ragg/LICENSE.libdeflate (installed dependency)"
+  ],
+  "recommended_context_file": "README.txt",
+  "limitations": [
+    "The exact libdeflate version in ragg remains unestablished; no version is inferred from the chosen notice.",
+    "Retaining both upstream named copyright holders avoids dropping the 2024 notice if applicable; it is not an assertion of binary provenance.",
+    "An unknown permissively licensed library source version is not by itself a GPL source obligation.",
+    "No claim of comprehensive licensing certification is made."
+  ],
+  "notice_sha256": "4ad69099cb4374836fd27583d9991e2838cd86b6e4666ab26b2d32582c91e73a",
+  "notice_git_blob_sha1": "9b620b3c1907154089e3c49c16520abe56d9f80a",
+  "notice_bytes": 1078,
+  "upstream_blob_sha1": "9b620b3c1907154089e3c49c16520abe56d9f80a",
+  "upstream_tree_url": "https://api.github.com/repos/ebiggers/libdeflate/git/trees/439f30117684c7859e0b1d4d8c57306b9ad71fd4"
+}

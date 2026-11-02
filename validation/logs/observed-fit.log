@@ -1,0 +1,46 @@
+R 4.5.2; lcmm 2.2.2
+PASS 01: C04 auto means, times, counts and weights match independent sums/native predictions
+PASS 02: C04 intervals means, times, counts and weights match independent sums/native predictions
+PASS 03: C04 every retained record contributes to exactly one interval per class
+PASS 04: C06 auto means, times, counts and weights match independent sums/native predictions
+PASS 05: C06 intervals means, times, counts and weights match independent sums/native predictions
+PASS 06: C06 every retained record contributes to exactly one interval per class
+PASS 07: C07 auto means, times, counts and weights match independent sums/native predictions
+PASS 08: C07 intervals means, times, counts and weights match independent sums/native predictions
+PASS 09: C07 every retained record contributes to exactly one interval per class
+PASS 10: O02 auto means, times, counts and weights match independent sums/native predictions
+PASS 11: O02 intervals means, times, counts and weights match independent sums/native predictions
+PASS 12: O02 every retained record contributes to exactly one interval per class
+PASS 13: O03 auto means, times, counts and weights match independent sums/native predictions
+PASS 14: O03 intervals means, times, counts and weights match independent sums/native predictions
+PASS 15: O03 every retained record contributes to exactly one interval per class
+PASS 16: M01 auto means, times, counts and weights match independent sums/native predictions
+PASS 17: M01 intervals means, times, counts and weights match independent sums/native predictions
+PASS 18: M01 every retained record contributes to exactly one interval per class
+PASS 19: M02 auto means, times, counts and weights match independent sums/native predictions
+PASS 20: M02 intervals means, times, counts and weights match independent sums/native predictions
+PASS 21: M02 every retained record contributes to exactly one interval per class
+PASS 22: C04 exact-time means match manual aggregation, including repeated times
+PASS 23: O02 exact-time means match manual aggregation, including repeated times
+PASS 24: summaries do not alter the caller's random-number state
+PASS 25: summaries do not modify the saved fit or its data
+PASS 26: data and posterior-row permutations preserve ID-matched summaries
+PASS 27: interval endpoints and ties use left-closed/right-open bins with final maximum included
+PASS 28: minimum, exact internal boundaries and maximum occur in the intended bins
+PASS 29: posterior-weighted observed means differ appropriately from unweighted or modal means
+PASS 30: automatic grouping keeps a small number of distinct scheduled times exact
+PASS 31: empty intervals retain zero counts and undefined means instead of fabricated zeros
+PASS 32: zero class weights leave means undefined while retaining all-record group counts
+PASS 33: automatic grouping selects the documented rule for 20 distinct times
+PASS 34: automatic grouping selects the documented rule for 21 distinct times
+PASS 35: curved fitted values are averages over actual times, not predictions at mean time
+PASS 36: ordinal summaries use the fitted consecutive category codes independently of display labels
+PASS 37: missing subject posterior probabilities are rejected
+PASS 38: duplicate posterior subject IDs are rejected
+PASS 39: nonfinite posterior probabilities are rejected
+PASS 40: posterior probabilities that do not sum to one are rejected
+PASS 41: too few intervals are rejected
+PASS 42: noninteger interval counts are rejected
+PASS 43: unknown grouping modes are rejected
+
+All 43 observed-versus-fitted checks passed. No models were re-estimated.

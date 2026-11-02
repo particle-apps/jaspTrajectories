@@ -1,0 +1,28 @@
+PASS 01: prediction copy leaves the original fitted object unchanged
+PASS 02: prediction reparameterization does not consume random numbers
+PASS 03: prediction copy adds a fixed zero random-effect covariance
+PASS 04: binary ordinal predictions agree with the analytic marginal mean
+PASS 05: ordinal predictions do not depend on prediction-row order
+PASS 06: a single prediction time preserves the analytic variance
+PASS 07: native confidence draws agree with analytic probit draw calculations
+PASS 08: signed optimizer Cholesky parameters are preserved for uncertainty draws
+PASS 09: negative-Cholesky correlated confidence draws match the analytic marginal equation
+PASS 10: existing fixed-parameter indices shift around the inserted covariance
+PASS 11: native draws support the expanded fixed-parameter set
+PASS 12: multiclass ordinal means preserve proportional random-effect variances
+PASS 13: simulated diagonal ordinal random-slope GMM fully converges
+PASS 14: converged ordinal GMM predictions agree with the analytic marginal mean
+PASS 15: converged ordinal GMM supplies finite ordered native confidence limits
+PASS 16: point and interval predictions do not modify the estimated model
+PASS 17: unstructured models bypass the workaround unchanged
+PASS 18: random-intercept prediction copy preserves all parameters and signed covariance
+PASS 19: random-intercept point predictions are unchanged and match the analytical mean
+PASS 20: signed random-intercept confidence draws match independent analytical calculations
+PASS 21: random-intercept prediction leaves the known-parameter model unchanged
+PASS 22: estimated ordinal random-intercept fixture converges with a negative signed SD
+PASS 23: converged random-intercept point predictions remain unchanged
+PASS 24: converged random-intercept confidence draws match the analytical ordinal expectation
+PASS 25: converged random-intercept fixture detects incorrect uncorrected limits and validates their correction
+Random-intercept regression evidence: convergence=1; signed SD=-0.140976325251; uncorrected maximum limit error=0.0040766062502; corrected maximum limit error=4.4408920985e-16.
+PASS 26: random-intercept prediction preserves the fitted model, likelihood and fit statistics
+ALL 26 PREDICTION SUPPORT CHECKS PASSED (lcmm 2.2.2).

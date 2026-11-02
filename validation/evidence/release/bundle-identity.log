@@ -1,0 +1,120 @@
+PASS: Dependency tree MASS matches final neutral clean-build provenance
+PASS: Dependency tree Matrix matches final neutral clean-build provenance
+PASS: Dependency tree R6 matches final neutral clean-build provenance
+PASS: Dependency tree RColorBrewer matches final neutral clean-build provenance
+PASS: Dependency tree Rcpp matches final neutral clean-build provenance
+PASS: Dependency tree S7 matches final neutral clean-build provenance
+PASS: Dependency tree askpass matches final neutral clean-build provenance
+PASS: Dependency tree base64enc matches final neutral clean-build provenance
+PASS: Dependency tree bslib matches final neutral clean-build provenance
+PASS: Dependency tree cachem matches final neutral clean-build provenance
+PASS: Dependency tree callr matches final neutral clean-build provenance
+PASS: Dependency tree cli matches final neutral clean-build provenance
+PASS: Dependency tree codetools matches final neutral clean-build provenance
+PASS: Dependency tree cpp11 matches final neutral clean-build provenance
+PASS: Dependency tree crosstalk matches final neutral clean-build provenance
+PASS: Dependency tree curl matches final neutral clean-build provenance
+PASS: Dependency tree data.table matches final neutral clean-build provenance
+PASS: Dependency tree desc matches final neutral clean-build provenance
+PASS: Dependency tree digest matches final neutral clean-build provenance
+PASS: Dependency tree doParallel matches final neutral clean-build provenance
+PASS: Dependency tree dplyr matches final neutral clean-build provenance
+PASS: Dependency tree evaluate matches final neutral clean-build provenance
+PASS: Dependency tree farver matches final neutral clean-build provenance
+PASS: Dependency tree fastmap matches final neutral clean-build provenance
+PASS: Dependency tree fontBitstreamVera matches final neutral clean-build provenance
+PASS: Dependency tree fontLiberation matches final neutral clean-build provenance
+PASS: Dependency tree fontawesome matches final neutral clean-build provenance
+PASS: Dependency tree fontquiver matches final neutral clean-build provenance
+PASS: Dependency tree foreach matches final neutral clean-build provenance
+PASS: Dependency tree fs matches final neutral clean-build provenance
+PASS: Dependency tree gdtools matches final neutral clean-build provenance
+PASS: Dependency tree generics matches final neutral clean-build provenance
+PASS: Dependency tree ggplot2 matches final neutral clean-build provenance
+PASS: Dependency tree glue matches final neutral clean-build provenance
+PASS: Dependency tree gridExtra matches final neutral clean-build provenance
+PASS: Dependency tree gridGraphics matches final neutral clean-build provenance
+PASS: Dependency tree gtable matches final neutral clean-build provenance
+PASS: Dependency tree highr matches final neutral clean-build provenance
+PASS: Dependency tree htmltools matches final neutral clean-build provenance
+PASS: Dependency tree htmlwidgets matches final neutral clean-build provenance
+PASS: Dependency tree httr matches final neutral clean-build provenance
+PASS: Dependency tree isoband matches final neutral clean-build provenance
+PASS: Dependency tree iterators matches final neutral clean-build provenance
+PASS: Dependency tree jaspBase matches final neutral clean-build provenance
+PASS: Dependency tree jaspGraphs matches final neutral clean-build provenance
+PASS: Dependency tree jquerylib matches final neutral clean-build provenance
+PASS: Dependency tree jsonlite matches final neutral clean-build provenance
+PASS: Dependency tree knitr matches final neutral clean-build provenance
+PASS: Dependency tree labeling matches final neutral clean-build provenance
+PASS: Dependency tree later matches final neutral clean-build provenance
+PASS: Dependency tree lattice matches final neutral clean-build provenance
+PASS: Dependency tree lazyeval matches final neutral clean-build provenance
+PASS: Dependency tree lcmm matches final neutral clean-build provenance
+PASS: Dependency tree lifecycle matches final neutral clean-build provenance
+PASS: Dependency tree magrittr matches final neutral clean-build provenance
+PASS: Dependency tree marqLevAlg matches final neutral clean-build provenance
+PASS: Dependency tree memoise matches final neutral clean-build provenance
+PASS: Dependency tree mime matches final neutral clean-build provenance
+PASS: Dependency tree mvtnorm matches final neutral clean-build provenance
+PASS: Dependency tree nlme matches final neutral clean-build provenance
+PASS: Dependency tree numDeriv matches final neutral clean-build provenance
+PASS: Dependency tree officer matches final neutral clean-build provenance
+PASS: Dependency tree openssl matches final neutral clean-build provenance
+PASS: Dependency tree otel matches final neutral clean-build provenance
+PASS: Dependency tree pillar matches final neutral clean-build provenance
+PASS: Dependency tree pkgbuild matches final neutral clean-build provenance
+PASS: Dependency tree pkgconfig matches final neutral clean-build provenance
+PASS: Dependency tree plotly matches final neutral clean-build provenance
+PASS: Dependency tree plyr matches final neutral clean-build provenance
+PASS: Dependency tree processx matches final neutral clean-build provenance
+PASS: Dependency tree promises matches final neutral clean-build provenance
+PASS: Dependency tree ps matches final neutral clean-build provenance
+PASS: Dependency tree purrr matches final neutral clean-build provenance
+PASS: Dependency tree ragg matches final neutral clean-build provenance
+PASS: Dependency tree rappdirs matches final neutral clean-build provenance
+PASS: Dependency tree rlang matches final neutral clean-build provenance
+PASS: Dependency tree rmarkdown matches final neutral clean-build provenance
+PASS: Dependency tree rvg matches final neutral clean-build provenance
+PASS: Dependency tree sass matches final neutral clean-build provenance
+PASS: Dependency tree scales matches final neutral clean-build provenance
+PASS: Dependency tree spacefillr matches final neutral clean-build provenance
+PASS: Dependency tree stringi matches final neutral clean-build provenance
+PASS: Dependency tree stringr matches final neutral clean-build provenance
+PASS: Dependency tree survival matches final neutral clean-build provenance
+PASS: Dependency tree svglite matches final neutral clean-build provenance
+PASS: Dependency tree sys matches final neutral clean-build provenance
+PASS: Dependency tree systemfonts matches final neutral clean-build provenance
+PASS: Dependency tree textshaping matches final neutral clean-build provenance
+PASS: Dependency tree tibble matches final neutral clean-build provenance
+PASS: Dependency tree tidyr matches final neutral clean-build provenance
+PASS: Dependency tree tidyselect matches final neutral clean-build provenance
+PASS: Dependency tree tinytex matches final neutral clean-build provenance
+PASS: Dependency tree utf8 matches final neutral clean-build provenance
+PASS: Dependency tree uuid matches final neutral clean-build provenance
+PASS: Dependency tree vctrs matches final neutral clean-build provenance
+PASS: Dependency tree viridisLite matches final neutral clean-build provenance
+PASS: Dependency tree withr matches final neutral clean-build provenance
+PASS: Dependency tree xfun matches final neutral clean-build provenance
+PASS: Dependency tree xml2 matches final neutral clean-build provenance
+PASS: Dependency tree yaml matches final neutral clean-build provenance
+PASS: Dependency tree zip matches final neutral clean-build provenance
+PASS: ragg native code unchanged from original app input; libdeflate notice matches source
+PASS: Final Rcpp unchanged from original dependency and source-build input
+PASS: 49 installed Common files and rebuilt DLL match source-build provenance
+PASS: No personal home-directory paths in jaspBase/libs/jaspBase.so
+PASS: No personal home-directory paths in jaspBase/source-provenance.json
+BUNDLE PACKAGE jaspTrajectories /private/tmp/jaspTrajectories-public-beta-0.1.0/build/bundle-check/binary_pkgs/3e9ef712cab50ebd6e7dec7c5d3723722727ff6c8e633d814a863ba6f8401c02 
+BUNDLE PACKAGE jaspBase /private/tmp/jaspTrajectories-public-beta-0.1.0/build/bundle-check/binary_pkgs/09084104b01b3e068e352d443faf2116ba0c31044cb7d21e2424eaf588b61d9a 
+BUNDLE PACKAGE ragg /private/tmp/jaspTrajectories-public-beta-0.1.0/build/bundle-check/binary_pkgs/49b49b3402f110713aa4c1efaf3a156d5610e70c063b434a0ed97b179607d558 
+BUNDLE PACKAGE Rcpp /private/tmp/jaspTrajectories-public-beta-0.1.0/build/bundle-check/binary_pkgs/933911715e4dce9b9893cc4ef8e1f0a643b72297314665e9ddf457cb7905f419 
+BUNDLE PACKAGE lcmm /private/tmp/jaspTrajectories-public-beta-0.1.0/build/bundle-check/binary_pkgs/6b8c75426c40561d933899fe8699f63467de2e6a7a4caee6701c7b32219759dc 
+PASS: 21 runtime definitions and 7 installed resources match source.
+PASS: DESCRIPTION fields match, including public Version 0.1.0.
+jaspTrajectories 0.1.0 
+lcmm 2.2.2 
+jaspBase 0.20.4 
+ggplot2 4.0.1 
+PASS: jaspBase 286 function source references use neutral build paths.
+PASS: jaspTrajectories 18 function source references use neutral build paths.
+PASS: NEWS.md and installed help match the 0.1.0 source.

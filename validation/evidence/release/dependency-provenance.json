@@ -1,0 +1,901 @@
+{
+  "lock_sha256": "dcc95c6354caa25dd9c4f92eaff0584a43a72f94adc0280ed06d6c00e9d1d794",
+  "environment": {
+    "platform": "macOS arm64",
+    "jasp_bundle_version": "0.99.0.0",
+    "r_version": "4.5.2",
+    "r_home": "Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources",
+    "r_executable_sha256": "3448467c4bb3c60f5afb0a5a2afb2728a9397d53a698716f61de915aff39ef8f",
+    "bundle_tool_path": "Contents/Modules/Tools/jaspModuleBundleManager_library",
+    "bundle_tool_tree_sha256": "ab77847da8e69cb80afa98d41a4fc38d1cc2234d5a8f4e24c58f29e1b6ff718c"
+  },
+  "packages": [
+    {
+      "name": "MASS",
+      "version": "7.3-65",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "aab712e40205efc42dd3b3ad502a22757ed62d63c076505751e7ba3c603d21e7"
+    },
+    {
+      "name": "Matrix",
+      "version": "1.7-4",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "7266f61c461ca50d4272e3dc122e26256fe28fbc50acc9b8a540668b6edfe6b7"
+    },
+    {
+      "name": "R6",
+      "version": "2.6.1",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "d62fa9d2d8b1cd1e98996a60459ba79afa494f6bbb12a53a08111643db15963a"
+    },
+    {
+      "name": "RColorBrewer",
+      "version": "1.1-3",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "06fd85bd7d8152deba07d5b20d83bbfd27d0c808358d4a8961f99e5ad85a4bcf"
+    },
+    {
+      "name": "Rcpp",
+      "version": "1.1.1",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "e6a5427f31009144a4de72a0d174967de10729b6bba6c34064d21bceaab5ccb6"
+    },
+    {
+      "name": "S7",
+      "version": "0.2.1",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "d57a9ea4d6d1c67494fbb2adc6d40e7e9a610d4904411f93af433f228c12247e"
+    },
+    {
+      "name": "askpass",
+      "version": "1.2.1",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "c0d4a0fdf9cbe74f9552f4452c71adcaab266e42df9fda12e0300df4c0f01e05"
+    },
+    {
+      "name": "base64enc",
+      "version": "0.1-3",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "40757e6bdac2c5554861cd4f07083ddffd2b5b482b9a27df45e050d4e3d769ac"
+    },
+    {
+      "name": "bslib",
+      "version": "0.10.0",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "d0e0dc0dc9c3862d7728805300f029fde0e503b08a2a9352a67dbc1e69215ff0"
+    },
+    {
+      "name": "cachem",
+      "version": "1.1.0",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "fecce2a19c01d28fb7e55c609e5c5661b105c266d65aae22632bc24affccb9bf"
+    },
+    {
+      "name": "callr",
+      "version": "3.7.6",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "a848a3538ce2f674ec3ea143f770c9d0e2c3a0574dbce96a4a52c9778d250a38"
+    },
+    {
+      "name": "cli",
+      "version": "3.6.5",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "a28f59dd291ed5a9a5a4664775188502dc217dec59fcb36230a1c2adaa799caa"
+    },
+    {
+      "name": "codetools",
+      "version": "0.2-20",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "271e187db852e036c5176edd3775fb459d12803f6deeadfa56e4f8d10ccd8e51"
+    },
+    {
+      "name": "compiler",
+      "version": "4.5.2",
+      "source": "jasp-app",
+      "installed_in_private_library": false,
+      "tree_sha256": "3c9b4e8ed416efd520b61c21809fb7af6c1cc949eeef29b71507f9908067aec8"
+    },
+    {
+      "name": "cpp11",
+      "version": "0.5.3",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "46aa71624779da7dad864d2a4b8386d506e6e31ae5b6e871b03cb5a06ddf1568"
+    },
+    {
+      "name": "crosstalk",
+      "version": "1.2.2",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "14472145065a7244695dc2311e1a7e1cd8a0ea6ee35b84814ce5b0e15e7b643b"
+    },
+    {
+      "name": "curl",
+      "version": "7.0.0",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "22d277315c5ba7bb1b85c259eaa63c6870e20e78c98fba3a35945af9d47161c5"
+    },
+    {
+      "name": "data.table",
+      "version": "1.18.2.1",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "568460fce274cf54d31347f78f825004ade5c1b7f579270c106162d353675817"
+    },
+    {
+      "name": "desc",
+      "version": "1.4.3",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "9bd0be32166cbf3562b5d68b0abd2ce9b90fd0b3781806ecf73f9b03ed3145b5"
+    },
+    {
+      "name": "digest",
+      "version": "0.6.39",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "aa6411a5b47f4fa9dc9720e6eb015b371b32b8e2d065131c810779309e7f7c1f"
+    },
+    {
+      "name": "doParallel",
+      "version": "1.0.17",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "6cc10ca6125be63eeacfb6b3efe11b2fa677c1a8559fbdf115a032ed156ebbfb"
+    },
+    {
+      "name": "dplyr",
+      "version": "1.1.4",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "aee572dad43d46a3f9e3f6980ed11cacb8c467dd9ade62b45d959b6401be57f5"
+    },
+    {
+      "name": "evaluate",
+      "version": "1.0.5",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "00ba9a1e2637d0da4befd854af6e7d5a0cf23f3f34150b1bda9cd669ad86f32d"
+    },
+    {
+      "name": "farver",
+      "version": "2.1.2",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "30a196de382faa48a0abd0f03a3befa606069ac4e10b47f0ee91414b18b57aac"
+    },
+    {
+      "name": "fastmap",
+      "version": "1.2.0",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "4ca3b902cbb250a5eea219e5f07ad2af2fbf36309e25b0bc4eadd490017688df"
+    },
+    {
+      "name": "fontBitstreamVera",
+      "version": "0.1.1",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "28bf55482e828b905f094d984b61eebf96e7f53cfaacbebb3ece1729ae6a7af2"
+    },
+    {
+      "name": "fontLiberation",
+      "version": "0.1.0",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "cf7d0f0eb2cb89fc055656337f10729d796c54d9455925aa4322fbd20a8274e7"
+    },
+    {
+      "name": "fontawesome",
+      "version": "0.5.3",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "72463890a8a7c56b733b03686c89d5a42a6c9dc770e89ae45f788626701eae06"
+    },
+    {
+      "name": "fontquiver",
+      "version": "0.2.1",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "94b12d81fa3348d731826d32f0bdfee1879106bd0c264946f172615b6998dadd"
+    },
+    {
+      "name": "foreach",
+      "version": "1.5.2",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "1c94b081a3428accec4e3dd2b5be54f30cbe9beefd53bcb62499d0ce6b317ab3"
+    },
+    {
+      "name": "fs",
+      "version": "1.6.6",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "b3a3e342929a3a0e88b3c9fb2d3583ea6c806137b67823ebd186f7663f2a933e"
+    },
+    {
+      "name": "gdtools",
+      "version": "0.4.4",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "9332a0c63c12ae30cd56086304bccee970f7e7baf5c4630e733b021e2d14de13"
+    },
+    {
+      "name": "generics",
+      "version": "0.1.4",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "9f4f376a218933031dcd7a25aa56fa4c04a71943efafdd6f1237717991a6fde6"
+    },
+    {
+      "name": "ggplot2",
+      "version": "4.0.1",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "238268fdf79e492efdf21cc449573cdd594bf1447bc3de15c457a48f9bae840c"
+    },
+    {
+      "name": "glue",
+      "version": "1.8.0",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "debb6ce679f4737bb9f89af493c9e8ae7c110cc706fc1eb3f27a4f4726675f44"
+    },
+    {
+      "name": "grDevices",
+      "version": "4.5.2",
+      "source": "jasp-app",
+      "installed_in_private_library": false,
+      "tree_sha256": "c54405f57e9e602f556bc42b16caa9e9a0ad1421822a4eb0456fb2bf663f5a0e"
+    },
+    {
+      "name": "graphics",
+      "version": "4.5.2",
+      "source": "jasp-app",
+      "installed_in_private_library": false,
+      "tree_sha256": "785ca73a08a87f9864006e64bbdfe44b7a980930fc7c82057461e4bef0917b0f"
+    },
+    {
+      "name": "grid",
+      "version": "4.5.2",
+      "source": "jasp-app",
+      "installed_in_private_library": false,
+      "tree_sha256": "15b1bfca24143b80a00cc1f125c37cf3797dc1773075a25a246407422dd1ce2d"
+    },
+    {
+      "name": "gridExtra",
+      "version": "2.3",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "fe30a186c34ef094f606bfc429162af13530054fd4ce7a0b987a275ff0161332"
+    },
+    {
+      "name": "gridGraphics",
+      "version": "0.5-1",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "5b73e731ec8c5b1090e6d60c3a85122f4e9020c4aa622d0f3dc90fb4c3879f52"
+    },
+    {
+      "name": "gtable",
+      "version": "0.3.6",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "adcbb73cfcd8badf58e6277563598d630f7ed59afb980ad714b2a99de3f3f2d0"
+    },
+    {
+      "name": "highr",
+      "version": "0.11",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "8502d4b14d44e3170300e7f4d2bd6f00f7ac69d5313612bc421af4e00c9423ea"
+    },
+    {
+      "name": "htmltools",
+      "version": "0.5.9",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "e8607eeb1f49f8ae398586dbe28e94e088ec883fe719d15deb11176d82fa49af"
+    },
+    {
+      "name": "htmlwidgets",
+      "version": "1.6.4",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "9f2138d15bb1066fcfd5c71b5924173e56f246514235611c7371bc350c60e5b3"
+    },
+    {
+      "name": "httr",
+      "version": "1.4.7",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "2dba564cae038f7a076e83c9e57937ccf1273a39e0a1505ad03d8fd2c332e0d8"
+    },
+    {
+      "name": "isoband",
+      "version": "0.3.0",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "321ff90d8ba3a615d25ac66b9d58202c13f578432f896d47881774a3de3ecaf6"
+    },
+    {
+      "name": "iterators",
+      "version": "1.0.14",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "d3a533f11dd6057755092cc7441a8d9abe72893d74072bd190cbfeee197f6926"
+    },
+    {
+      "name": "jaspBase",
+      "version": "0.20.4",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "c717033d909beace441e49a8743ab2a1de7fea4d88349b82e4c972854171afcb"
+    },
+    {
+      "name": "jaspGraphs",
+      "version": "0.20.0",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "d33f9b868eeaf6abf1fd590e32914967eae17aa08265e33ea3740a5511574f79"
+    },
+    {
+      "name": "jquerylib",
+      "version": "0.1.4",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "fe233a8f4f0f430a18c17decd266502e8782f16f2c863bbd8a1f8c9b812f1c2d"
+    },
+    {
+      "name": "jsonlite",
+      "version": "2.0.0",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "3fcfb251df410e2afa4c2034854bf8ffcca89ac4b6562b346743489dcec3d4d6"
+    },
+    {
+      "name": "knitr",
+      "version": "1.51",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "2dcf2a0cadc1c406cb608543e267de13d1af43fae2180d7f311d49eb95245c74"
+    },
+    {
+      "name": "labeling",
+      "version": "0.4.3",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "f558056b58815d8179ad6c44c142fb38b027dc0672f733f95fdaff2b7f6d6fd4"
+    },
+    {
+      "name": "later",
+      "version": "1.4.5",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "fa7f03aec9be9a489a59a0454be3e35e3d221db09fa06b0640da8c6ab939c0b1"
+    },
+    {
+      "name": "lattice",
+      "version": "0.22-7",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "259d55e2665ad89db164b5d0dc18ed60684157df3b22c91c67bfc9de6868a7bd"
+    },
+    {
+      "name": "lazyeval",
+      "version": "0.2.2",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "73c29196c049ec00ae1472749f8a25b685646b69ba7757c3664a247ce5dbb08b"
+    },
+    {
+      "name": "lcmm",
+      "version": "2.2.2",
+      "source": "cran-binary",
+      "installed_in_private_library": true,
+      "tree_sha256": "ff0a530f5f1b8bdc82b3f6325312c5045ec3f655eb215ba35ea120831be065bf"
+    },
+    {
+      "name": "lifecycle",
+      "version": "1.0.5",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "4d22559cdbc8a0d12f6479a3c43b78b683e995a3667442a8f253ac939dc3aa0d"
+    },
+    {
+      "name": "magrittr",
+      "version": "2.0.4",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "ef0c1084da77d1da885996991cae64da3460f6463f2caf4fefee742baadaccd6"
+    },
+    {
+      "name": "marqLevAlg",
+      "version": "2.0.8",
+      "source": "cran-binary",
+      "installed_in_private_library": true,
+      "tree_sha256": "d7c057fe7cb85a13941ef355750cbfb266f3b2dd9f042744750cf4ab618168ca"
+    },
+    {
+      "name": "memoise",
+      "version": "2.0.1",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "e8366f7a888fb221eca83b791b37ce4aa8dcf32c37a9a688fd3a88e651cae828"
+    },
+    {
+      "name": "methods",
+      "version": "4.5.2",
+      "source": "jasp-app",
+      "installed_in_private_library": false,
+      "tree_sha256": "ffcc3798c1e5d5b25d9b91985a287831af4695e7d59c36b8fbe0a08d548559c7"
+    },
+    {
+      "name": "mime",
+      "version": "0.13",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "e863f69cb0c68aebd7a7d4b65f42823497e34c5f4e66b6c8d9a9f608c3c36487"
+    },
+    {
+      "name": "mvtnorm",
+      "version": "1.3-3",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "f5341888b500cfcc1ced915418294fa13baf628681247cc22bba981794f18794"
+    },
+    {
+      "name": "nlme",
+      "version": "3.1-168",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "58d8f0e5047eae2156210054d4cc7ffade635d1f2ec2f05cd16395bc9adfdbf8"
+    },
+    {
+      "name": "numDeriv",
+      "version": "2016.8-1.1",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "ac6eaa9b7428c8edd1c7c7eb43a2c034d17089bf990a03883b164473d83a7649"
+    },
+    {
+      "name": "officer",
+      "version": "0.7.3",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "b9f4564036451f3d0671128aa0655c34e1a23b7943d650a195e1ec2e32712be2"
+    },
+    {
+      "name": "openssl",
+      "version": "2.3.4",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "a3d9456d5dbb009e5f288ff8437786cfe62f868418a84fc3a12e6045a0c15f27"
+    },
+    {
+      "name": "otel",
+      "version": "0.2.0",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "cde473ffeb01fa0e1aea3c5f1dca085e9b9025d0e7d8248521b477bfd616581f"
+    },
+    {
+      "name": "parallel",
+      "version": "4.5.2",
+      "source": "jasp-app",
+      "installed_in_private_library": false,
+      "tree_sha256": "259749e4782a4e9df5340e7455f371984d3b69b2434e44d86124fdd6a96bf4ce"
+    },
+    {
+      "name": "pillar",
+      "version": "1.11.1",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "a5792c40144c845861863236cfa52151716ec161f84971ba5f1458917eaef0de"
+    },
+    {
+      "name": "pkgbuild",
+      "version": "1.4.8",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "b10a767d3d65c6b260835c74ec9d4c95ad36597eb8cdc6aed5a3e3151d698c66"
+    },
+    {
+      "name": "pkgconfig",
+      "version": "2.0.3",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "83fcc308a9c7b25dfb9cb26afde3fa47ff41fa1b37de55e7416aebb9618a7b6e"
+    },
+    {
+      "name": "plotly",
+      "version": "4.12.0",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "ec778ac2ea1b54cd55fac441825e1b4b75982a21d470d0d12869274e6054f83b"
+    },
+    {
+      "name": "plyr",
+      "version": "1.8.9",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "66dc5124698f546fa8bcb8ba36599955b202119f588dfca0c614d4b228f3b6ae"
+    },
+    {
+      "name": "processx",
+      "version": "3.8.6",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "b14c95cc20ff68fead497f5274f6a13e29250563601101838a7e636b48ba105d"
+    },
+    {
+      "name": "promises",
+      "version": "1.5.0",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "d773169f26ab3cc779f0104c1672204aad5c420b99fc9eb284af47511d9ee943"
+    },
+    {
+      "name": "ps",
+      "version": "1.9.1",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "da0998e4a7d2307ba6665dd3b323ef6522265301f5b6ba2d9c85c8f0f4fa65ae"
+    },
+    {
+      "name": "purrr",
+      "version": "1.2.1",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "5e4926db5c2ba6d3c2ec15c49ef868e3fed3aaf9eb8c2c0b39b16423af063b20"
+    },
+    {
+      "name": "ragg",
+      "version": "1.5.0",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "47b0b8ef3ecdfa2abbea2f1fb5479af9c755520c2c4e1b723c58a3cf48d3865c"
+    },
+    {
+      "name": "rappdirs",
+      "version": "0.3.4",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "f12624c0b77d11e01d978e74a4251c6ab51b85574887a49bcba063a1eb6e8039"
+    },
+    {
+      "name": "rlang",
+      "version": "1.1.7",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "4a6fdb823c71cf98c935d710cd5718aebb20f2c91636e7a118a74d5ed8f918bc"
+    },
+    {
+      "name": "rmarkdown",
+      "version": "2.30",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "af2e642034c48019f8a7edf5b460e17aaa9c6765dfdc26022a83da3f8199b314"
+    },
+    {
+      "name": "rvg",
+      "version": "0.4.0",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "03b8be93b7270ad5f93105fa5edcfcb82eb80db19bda2fefb7c18105c3a182b5"
+    },
+    {
+      "name": "sass",
+      "version": "0.4.10",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "be5527b59042bd6b96796a35b94869cd254659f6d76fd1f44ba16e99abe374ec"
+    },
+    {
+      "name": "scales",
+      "version": "1.4.0",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "e8c8d78f7370a3770c6eb0023c61d28feb1103f3441aabad76d0527ec50c0e17"
+    },
+    {
+      "name": "spacefillr",
+      "version": "0.4.0",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "990bf0f2670aadc28df726804f0e6c19e1db81904ea94d939f8ebe54392bd944"
+    },
+    {
+      "name": "splines",
+      "version": "4.5.2",
+      "source": "jasp-app",
+      "installed_in_private_library": false,
+      "tree_sha256": "94c9f8c1a998215794dd21a965c7a0cf8ad354804b0e7b869d54e115bdf7bca1"
+    },
+    {
+      "name": "stats",
+      "version": "4.5.2",
+      "source": "jasp-app",
+      "installed_in_private_library": false,
+      "tree_sha256": "ae2bdeef86d4536ec72ddc7fbf5bb15b4fef8f2e7588aaaf913ec7a8416dfe22"
+    },
+    {
+      "name": "stringi",
+      "version": "1.8.7",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "dda3b9cc87484be2b19487c09bf4e0bee164cc2fe987406a3c0a20628d7eb659"
+    },
+    {
+      "name": "stringr",
+      "version": "1.6.0",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "741fd99ce24f2ded59b6ab8b7bf6fa306d31a7a5b8dbc9082ba1861cf875de1a"
+    },
+    {
+      "name": "survival",
+      "version": "3.8-3",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "30a13636cc61c1f9caea50d470a1a6e7308ae50c3855b7df53893501b5d28527"
+    },
+    {
+      "name": "svglite",
+      "version": "2.2.2",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "e3301f375fd9396973a4930cd0328fbc500ffbb85e1180472306853e66a62281"
+    },
+    {
+      "name": "sys",
+      "version": "3.4.3",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "8f2175a75fe7f3564a2a01d2777f44290f31e3c9a09bf475573b8d9659baea5d"
+    },
+    {
+      "name": "systemfonts",
+      "version": "1.3.1",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "65117f90babba51e43739bb0152ed52f5374bf46a50ad073e5d15d769cfe35e2"
+    },
+    {
+      "name": "textshaping",
+      "version": "1.0.4",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "174448393eada2b5e8449f4a8baade5416d9405cd07c6403c86f01d781c929cf"
+    },
+    {
+      "name": "tibble",
+      "version": "3.3.1",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "f4d8c8ca657bf0bb83a94090805332caab2d47fb0514665e9523d6088ee05d4c"
+    },
+    {
+      "name": "tidyr",
+      "version": "1.3.2",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "8b4dae904bec139f09f771f475d1a809e06a0d55b078bbb3f80be0b50884a3c4"
+    },
+    {
+      "name": "tidyselect",
+      "version": "1.2.1",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "6392b09b5b6f3f16f40cebb09b89782aa209b5a2371ce5b65f0fd11f258af3ac"
+    },
+    {
+      "name": "tinytex",
+      "version": "0.58",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "05e29efb3a5c82ca9727429be2addfeeb41491de26bc5b3ecf092c3d75e638de"
+    },
+    {
+      "name": "tools",
+      "version": "4.5.2",
+      "source": "jasp-app",
+      "installed_in_private_library": false,
+      "tree_sha256": "208392749938e408576f9b655559384f3300ca91ccaaf65858c390d54aa641aa"
+    },
+    {
+      "name": "utf8",
+      "version": "1.2.6",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "96c3e0549ac0a0ec867c28969223eddf6f815ceca3072e294b02f4558f5cbd81"
+    },
+    {
+      "name": "utils",
+      "version": "4.5.2",
+      "source": "jasp-app",
+      "installed_in_private_library": false,
+      "tree_sha256": "2f7e70b62ec018c37b139bcdeb031c52a73929938b2f2024446c922aa1706fde"
+    },
+    {
+      "name": "uuid",
+      "version": "1.2-2",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "5f1fca80ae2ff0986532daadf53c0a90027bdfd0e79e5b3cbed63ab6d1e9650b"
+    },
+    {
+      "name": "vctrs",
+      "version": "0.7.1",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "bf1eb5ec996f83330a49e07446a02c7cf9205b45656e27459f7dc30ccffee87b"
+    },
+    {
+      "name": "viridisLite",
+      "version": "0.4.2",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "e5686ad686233482958b977ee7a4210ed1c5d58d3ea24915d4786345a0ca6237"
+    },
+    {
+      "name": "withr",
+      "version": "3.0.2",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "7be0ab443fd7ede2868a977563d242347d7583a1ea063c4cdfe40646db506d5f"
+    },
+    {
+      "name": "xfun",
+      "version": "0.56",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "0a760cf8331d5ae724ae4d3fa84c8d4d1f61f70ae6c19746cb53e30e5d397d24"
+    },
+    {
+      "name": "xml2",
+      "version": "1.5.2",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "600a3e66828b3f9b940c70c27d458c05286d5a24d29d16cb2f070b4f2d8db432"
+    },
+    {
+      "name": "yaml",
+      "version": "2.3.12",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "bccfc98cb668ef45cb1b480431cdb067e401529ef3a14832da1aa33c169f866a"
+    },
+    {
+      "name": "zip",
+      "version": "2.3.3",
+      "source": "jasp-app",
+      "installed_in_private_library": true,
+      "tree_sha256": "8395978cc695737b8666708e17c9dac31c20e88890d51ab2ef0edd24f3b58df3"
+    }
+  ],
+  "system_or_user_R_libraries_used": false,
+  "post_restore_changes": {
+    "jaspBase": "Rebuilt from pinned package and Common sources; see source-build-provenance.json.",
+    "ragg": "Added upstream libdeflate copyright and MIT permission notice; native code unchanged."
+  },
+  "final_dependency_tree_sha256": {
+    "MASS": "aab712e40205efc42dd3b3ad502a22757ed62d63c076505751e7ba3c603d21e7",
+    "Matrix": "7266f61c461ca50d4272e3dc122e26256fe28fbc50acc9b8a540668b6edfe6b7",
+    "R6": "d62fa9d2d8b1cd1e98996a60459ba79afa494f6bbb12a53a08111643db15963a",
+    "RColorBrewer": "06fd85bd7d8152deba07d5b20d83bbfd27d0c808358d4a8961f99e5ad85a4bcf",
+    "Rcpp": "e6a5427f31009144a4de72a0d174967de10729b6bba6c34064d21bceaab5ccb6",
+    "S7": "d57a9ea4d6d1c67494fbb2adc6d40e7e9a610d4904411f93af433f228c12247e",
+    "askpass": "c0d4a0fdf9cbe74f9552f4452c71adcaab266e42df9fda12e0300df4c0f01e05",
+    "base64enc": "40757e6bdac2c5554861cd4f07083ddffd2b5b482b9a27df45e050d4e3d769ac",
+    "bslib": "d0e0dc0dc9c3862d7728805300f029fde0e503b08a2a9352a67dbc1e69215ff0",
+    "cachem": "fecce2a19c01d28fb7e55c609e5c5661b105c266d65aae22632bc24affccb9bf",
+    "callr": "a848a3538ce2f674ec3ea143f770c9d0e2c3a0574dbce96a4a52c9778d250a38",
+    "cli": "a28f59dd291ed5a9a5a4664775188502dc217dec59fcb36230a1c2adaa799caa",
+    "codetools": "271e187db852e036c5176edd3775fb459d12803f6deeadfa56e4f8d10ccd8e51",
+    "cpp11": "46aa71624779da7dad864d2a4b8386d506e6e31ae5b6e871b03cb5a06ddf1568",
+    "crosstalk": "14472145065a7244695dc2311e1a7e1cd8a0ea6ee35b84814ce5b0e15e7b643b",
+    "curl": "22d277315c5ba7bb1b85c259eaa63c6870e20e78c98fba3a35945af9d47161c5",
+    "data.table": "568460fce274cf54d31347f78f825004ade5c1b7f579270c106162d353675817",
+    "desc": "9bd0be32166cbf3562b5d68b0abd2ce9b90fd0b3781806ecf73f9b03ed3145b5",
+    "digest": "aa6411a5b47f4fa9dc9720e6eb015b371b32b8e2d065131c810779309e7f7c1f",
+    "doParallel": "6cc10ca6125be63eeacfb6b3efe11b2fa677c1a8559fbdf115a032ed156ebbfb",
+    "dplyr": "aee572dad43d46a3f9e3f6980ed11cacb8c467dd9ade62b45d959b6401be57f5",
+    "evaluate": "00ba9a1e2637d0da4befd854af6e7d5a0cf23f3f34150b1bda9cd669ad86f32d",
+    "farver": "30a196de382faa48a0abd0f03a3befa606069ac4e10b47f0ee91414b18b57aac",
+    "fastmap": "4ca3b902cbb250a5eea219e5f07ad2af2fbf36309e25b0bc4eadd490017688df",
+    "fontBitstreamVera": "28bf55482e828b905f094d984b61eebf96e7f53cfaacbebb3ece1729ae6a7af2",
+    "fontLiberation": "cf7d0f0eb2cb89fc055656337f10729d796c54d9455925aa4322fbd20a8274e7",
+    "fontawesome": "72463890a8a7c56b733b03686c89d5a42a6c9dc770e89ae45f788626701eae06",
+    "fontquiver": "94b12d81fa3348d731826d32f0bdfee1879106bd0c264946f172615b6998dadd",
+    "foreach": "1c94b081a3428accec4e3dd2b5be54f30cbe9beefd53bcb62499d0ce6b317ab3",
+    "fs": "b3a3e342929a3a0e88b3c9fb2d3583ea6c806137b67823ebd186f7663f2a933e",
+    "gdtools": "9332a0c63c12ae30cd56086304bccee970f7e7baf5c4630e733b021e2d14de13",
+    "generics": "9f4f376a218933031dcd7a25aa56fa4c04a71943efafdd6f1237717991a6fde6",
+    "ggplot2": "238268fdf79e492efdf21cc449573cdd594bf1447bc3de15c457a48f9bae840c",
+    "glue": "debb6ce679f4737bb9f89af493c9e8ae7c110cc706fc1eb3f27a4f4726675f44",
+    "gridExtra": "fe30a186c34ef094f606bfc429162af13530054fd4ce7a0b987a275ff0161332",
+    "gridGraphics": "5b73e731ec8c5b1090e6d60c3a85122f4e9020c4aa622d0f3dc90fb4c3879f52",
+    "gtable": "adcbb73cfcd8badf58e6277563598d630f7ed59afb980ad714b2a99de3f3f2d0",
+    "highr": "8502d4b14d44e3170300e7f4d2bd6f00f7ac69d5313612bc421af4e00c9423ea",
+    "htmltools": "e8607eeb1f49f8ae398586dbe28e94e088ec883fe719d15deb11176d82fa49af",
+    "htmlwidgets": "9f2138d15bb1066fcfd5c71b5924173e56f246514235611c7371bc350c60e5b3",
+    "httr": "2dba564cae038f7a076e83c9e57937ccf1273a39e0a1505ad03d8fd2c332e0d8",
+    "isoband": "321ff90d8ba3a615d25ac66b9d58202c13f578432f896d47881774a3de3ecaf6",
+    "iterators": "d3a533f11dd6057755092cc7441a8d9abe72893d74072bd190cbfeee197f6926",
+    "jaspBase": "4ea94c769137cc4cea2a16edcb61da62319017887200f443d0f345ca46d6db12",
+    "jaspGraphs": "d33f9b868eeaf6abf1fd590e32914967eae17aa08265e33ea3740a5511574f79",
+    "jquerylib": "fe233a8f4f0f430a18c17decd266502e8782f16f2c863bbd8a1f8c9b812f1c2d",
+    "jsonlite": "3fcfb251df410e2afa4c2034854bf8ffcca89ac4b6562b346743489dcec3d4d6",
+    "knitr": "2dcf2a0cadc1c406cb608543e267de13d1af43fae2180d7f311d49eb95245c74",
+    "labeling": "f558056b58815d8179ad6c44c142fb38b027dc0672f733f95fdaff2b7f6d6fd4",
+    "later": "fa7f03aec9be9a489a59a0454be3e35e3d221db09fa06b0640da8c6ab939c0b1",
+    "lattice": "259d55e2665ad89db164b5d0dc18ed60684157df3b22c91c67bfc9de6868a7bd",
+    "lazyeval": "73c29196c049ec00ae1472749f8a25b685646b69ba7757c3664a247ce5dbb08b",
+    "lcmm": "ff0a530f5f1b8bdc82b3f6325312c5045ec3f655eb215ba35ea120831be065bf",
+    "lifecycle": "4d22559cdbc8a0d12f6479a3c43b78b683e995a3667442a8f253ac939dc3aa0d",
+    "magrittr": "ef0c1084da77d1da885996991cae64da3460f6463f2caf4fefee742baadaccd6",
+    "marqLevAlg": "d7c057fe7cb85a13941ef355750cbfb266f3b2dd9f042744750cf4ab618168ca",
+    "memoise": "e8366f7a888fb221eca83b791b37ce4aa8dcf32c37a9a688fd3a88e651cae828",
+    "mime": "e863f69cb0c68aebd7a7d4b65f42823497e34c5f4e66b6c8d9a9f608c3c36487",
+    "mvtnorm": "f5341888b500cfcc1ced915418294fa13baf628681247cc22bba981794f18794",
+    "nlme": "58d8f0e5047eae2156210054d4cc7ffade635d1f2ec2f05cd16395bc9adfdbf8",
+    "numDeriv": "ac6eaa9b7428c8edd1c7c7eb43a2c034d17089bf990a03883b164473d83a7649",
+    "officer": "b9f4564036451f3d0671128aa0655c34e1a23b7943d650a195e1ec2e32712be2",
+    "openssl": "a3d9456d5dbb009e5f288ff8437786cfe62f868418a84fc3a12e6045a0c15f27",
+    "otel": "cde473ffeb01fa0e1aea3c5f1dca085e9b9025d0e7d8248521b477bfd616581f",
+    "pillar": "a5792c40144c845861863236cfa52151716ec161f84971ba5f1458917eaef0de",
+    "pkgbuild": "b10a767d3d65c6b260835c74ec9d4c95ad36597eb8cdc6aed5a3e3151d698c66",
+    "pkgconfig": "83fcc308a9c7b25dfb9cb26afde3fa47ff41fa1b37de55e7416aebb9618a7b6e",
+    "plotly": "ec778ac2ea1b54cd55fac441825e1b4b75982a21d470d0d12869274e6054f83b",
+    "plyr": "66dc5124698f546fa8bcb8ba36599955b202119f588dfca0c614d4b228f3b6ae",
+    "processx": "b14c95cc20ff68fead497f5274f6a13e29250563601101838a7e636b48ba105d",
+    "promises": "d773169f26ab3cc779f0104c1672204aad5c420b99fc9eb284af47511d9ee943",
+    "ps": "da0998e4a7d2307ba6665dd3b323ef6522265301f5b6ba2d9c85c8f0f4fa65ae",
+    "purrr": "5e4926db5c2ba6d3c2ec15c49ef868e3fed3aaf9eb8c2c0b39b16423af063b20",
+    "ragg": "3cbed6f0a7f6d4ca0cca6fe4bb01eb4871ec72716927120da95e2f550c50d74b",
+    "rappdirs": "f12624c0b77d11e01d978e74a4251c6ab51b85574887a49bcba063a1eb6e8039",
+    "rlang": "4a6fdb823c71cf98c935d710cd5718aebb20f2c91636e7a118a74d5ed8f918bc",
+    "rmarkdown": "af2e642034c48019f8a7edf5b460e17aaa9c6765dfdc26022a83da3f8199b314",
+    "rvg": "03b8be93b7270ad5f93105fa5edcfcb82eb80db19bda2fefb7c18105c3a182b5",
+    "sass": "be5527b59042bd6b96796a35b94869cd254659f6d76fd1f44ba16e99abe374ec",
+    "scales": "e8c8d78f7370a3770c6eb0023c61d28feb1103f3441aabad76d0527ec50c0e17",
+    "spacefillr": "990bf0f2670aadc28df726804f0e6c19e1db81904ea94d939f8ebe54392bd944",
+    "stringi": "dda3b9cc87484be2b19487c09bf4e0bee164cc2fe987406a3c0a20628d7eb659",
+    "stringr": "741fd99ce24f2ded59b6ab8b7bf6fa306d31a7a5b8dbc9082ba1861cf875de1a",
+    "survival": "30a13636cc61c1f9caea50d470a1a6e7308ae50c3855b7df53893501b5d28527",
+    "svglite": "e3301f375fd9396973a4930cd0328fbc500ffbb85e1180472306853e66a62281",
+    "sys": "8f2175a75fe7f3564a2a01d2777f44290f31e3c9a09bf475573b8d9659baea5d",
+    "systemfonts": "65117f90babba51e43739bb0152ed52f5374bf46a50ad073e5d15d769cfe35e2",
+    "textshaping": "174448393eada2b5e8449f4a8baade5416d9405cd07c6403c86f01d781c929cf",
+    "tibble": "f4d8c8ca657bf0bb83a94090805332caab2d47fb0514665e9523d6088ee05d4c",
+    "tidyr": "8b4dae904bec139f09f771f475d1a809e06a0d55b078bbb3f80be0b50884a3c4",
+    "tidyselect": "6392b09b5b6f3f16f40cebb09b89782aa209b5a2371ce5b65f0fd11f258af3ac",
+    "tinytex": "05e29efb3a5c82ca9727429be2addfeeb41491de26bc5b3ecf092c3d75e638de",
+    "utf8": "96c3e0549ac0a0ec867c28969223eddf6f815ceca3072e294b02f4558f5cbd81",
+    "uuid": "5f1fca80ae2ff0986532daadf53c0a90027bdfd0e79e5b3cbed63ab6d1e9650b",
+    "vctrs": "bf1eb5ec996f83330a49e07446a02c7cf9205b45656e27459f7dc30ccffee87b",
+    "viridisLite": "e5686ad686233482958b977ee7a4210ed1c5d58d3ea24915d4786345a0ca6237",
+    "withr": "7be0ab443fd7ede2868a977563d242347d7583a1ea063c4cdfe40646db506d5f",
+    "xfun": "0a760cf8331d5ae724ae4d3fa84c8d4d1f61f70ae6c19746cb53e30e5d397d24",
+    "xml2": "600a3e66828b3f9b940c70c27d458c05286d5a24d29d16cb2f070b4f2d8db432",
+    "yaml": "bccfc98cb668ef45cb1b480431cdb067e401529ef3a14832da1aa33c169f866a",
+    "zip": "8395978cc695737b8666708e17c9dac31c20e88890d51ab2ef0edd24f3b58df3"
+  },
+  "libdeflate_notice_sha256": "4ad69099cb4374836fd27583d9991e2838cd86b6e4666ab26b2d32582c91e73a",
+  "source_build_provenance_sha256": "d2a8e9422efebf5a3b0d36ec1d87b7c96682f57b04f211a0ca4d9c215b9a1793"
+}

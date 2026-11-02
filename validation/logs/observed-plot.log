@@ -1,0 +1,7 @@
+PASS: C04 plot coordinates, panels and PNG export
+PASS: C06 plot coordinates, panels and PNG export
+PASS: O02 plot coordinates, panels and PNG export
+PASS: O03 plot coordinates, panels and PNG export
+PASS: P01 plot coordinates, panels and PNG export
+PASS: P02 plot coordinates, panels and PNG export
+PASS: unsupported groups remain gaps in the plotted line

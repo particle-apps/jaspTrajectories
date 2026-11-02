@@ -1,0 +1,1024 @@
+{
+  "schema_version": 1,
+  "environment": {
+    "platform": "macOS arm64",
+    "jasp_bundle_version": "0.99.0.0",
+    "r_version": "4.5.2",
+    "r_home": "Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources",
+    "r_executable_sha256": "3448467c4bb3c60f5afb0a5a2afb2728a9397d53a698716f61de915aff39ef8f",
+    "bundle_tool_path": "Contents/Modules/Tools/jaspModuleBundleManager_library",
+    "bundle_tool_tree_sha256": "ab77847da8e69cb80afa98d41a4fc38d1cc2234d5a8f4e24c58f29e1b6ff718c"
+  },
+  "roots": [
+    "lcmm",
+    "jaspBase",
+    "ggplot2",
+    "MASS",
+    "nlme"
+  ],
+  "packages": [
+    {
+      "name": "MASS",
+      "version": "7.3-65",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "aab712e40205efc42dd3b3ad502a22757ed62d63c076505751e7ba3c603d21e7",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2025-11-01 02:09:42 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/f69e07b930ec54282310376c9633247ea560b447390e5ca8ae7cbfed5daa9c52"
+    },
+    {
+      "name": "Matrix",
+      "version": "1.7-4",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "7266f61c461ca50d4272e3dc122e26256fe28fbc50acc9b8a540668b6edfe6b7",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2025-11-01 02:09:47 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/09b75cef47d0e7c864c6a705bc6d299ae649818c0de6160198c86e0cb05c0fec"
+    },
+    {
+      "name": "R6",
+      "version": "2.6.1",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "d62fa9d2d8b1cd1e98996a60459ba79afa494f6bbb12a53a08111643db15963a",
+      "built": "R 4.5.0; ; 2025-02-15 01:07:20 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/1273a84ae9a58bfd997eedd10ac5582274f06403a3a3eb8fd3351ff45f93094f"
+    },
+    {
+      "name": "RColorBrewer",
+      "version": "1.1-3",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "06fd85bd7d8152deba07d5b20d83bbfd27d0c808358d4a8961f99e5ad85a4bcf",
+      "built": "R 4.5.0; ; 2025-03-31 21:42:41 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/96abead482ddabfc8654bcbd43625b0c98bff3c65fa5dfd32225a8d24af46b9d"
+    },
+    {
+      "name": "Rcpp",
+      "version": "1.1.1",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "e6a5427f31009144a4de72a0d174967de10729b6bba6c34064d21bceaab5ccb6",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2026-01-10 11:50:00 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/f50c8b6a868e8e85ebf6d763efb66667bb21749da9a0027aa65b92b6d02580c3"
+    },
+    {
+      "name": "S7",
+      "version": "0.2.1",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "d57a9ea4d6d1c67494fbb2adc6d40e7e9a610d4904411f93af433f228c12247e",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2025-11-19 04:37:29 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/af29bf7dba8497ae0980d62199351cb8b5c8d8237a6a03c9fa64f4f27aaddbf1"
+    },
+    {
+      "name": "askpass",
+      "version": "1.2.1",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "c0d4a0fdf9cbe74f9552f4452c71adcaab266e42df9fda12e0300df4c0f01e05",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-04-01 06:33:14 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/ca9864fe61c2fc31d93ab803642966a9bfd5e676b8f090f5ad1b2957b7fb090b"
+    },
+    {
+      "name": "base64enc",
+      "version": "0.1-3",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "40757e6bdac2c5554861cd4f07083ddffd2b5b482b9a27df45e050d4e3d769ac",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 21:43:03 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/0c3b78cba966be160eae3e714090ce308a6f6ce53543228801d918b588fec863"
+    },
+    {
+      "name": "bslib",
+      "version": "0.10.0",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "d0e0dc0dc9c3862d7728805300f029fde0e503b08a2a9352a67dbc1e69215ff0",
+      "built": "R 4.5.2; ; 2026-01-26 12:05:36 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/873b5f8feddb91075d4035c97256ed1928ccfdccbf2841c036a139dde58b508d"
+    },
+    {
+      "name": "cachem",
+      "version": "1.1.0",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "fecce2a19c01d28fb7e55c609e5c5661b105c266d65aae22632bc24affccb9bf",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 21:43:44 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/b46bbc70ec22d01c25b21038201512257ccdb5ca6f635e08204399af09cebb45"
+    },
+    {
+      "name": "callr",
+      "version": "3.7.6",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "a848a3538ce2f674ec3ea143f770c9d0e2c3a0574dbce96a4a52c9778d250a38",
+      "built": "R 4.5.0; ; 2025-04-01 11:57:59 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/26f7129c0d76ca67685c1b306cbfd6bbdf180e356ea7571991e1cd3da42c8e4c"
+    },
+    {
+      "name": "cli",
+      "version": "3.6.5",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "a28f59dd291ed5a9a5a4664775188502dc217dec59fcb36230a1c2adaa799caa",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-04-23 14:06:41 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/324ed1cad1257e5d7536cff454f07abc331ceb99c832b406ad5f24bf31cbbd0c"
+    },
+    {
+      "name": "codetools",
+      "version": "0.2-20",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "271e187db852e036c5176edd3775fb459d12803f6deeadfa56e4f8d10ccd8e51",
+      "built": "R 4.5.2; ; 2025-11-01 02:09:42 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/0a7f271da32f8cd01941464ec39615c1577985cf340206ec46c5dc48304d617b"
+    },
+    {
+      "name": "compiler",
+      "version": "4.5.2",
+      "install": false,
+      "source": "jasp-app",
+      "tree_sha256": "3c9b4e8ed416efd520b61c21809fb7af6c1cc949eeef29b71507f9908067aec8",
+      "built": "R 4.5.2; ; 2025-11-01 02:08:46 UTC; unix",
+      "path": "Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/library/compiler"
+    },
+    {
+      "name": "cpp11",
+      "version": "0.5.3",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "46aa71624779da7dad864d2a4b8386d506e6e31ae5b6e871b03cb5a06ddf1568",
+      "built": "R 4.5.2; ; 2026-01-20 19:50:22 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/df4fe7507e53af26ac3443dee9a66efaeee785305a3d9de95e4e27f8ce1e1963"
+    },
+    {
+      "name": "crosstalk",
+      "version": "1.2.2",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "14472145065a7244695dc2311e1a7e1cd8a0ea6ee35b84814ce5b0e15e7b643b",
+      "built": "R 4.5.0; ; 2025-08-27 01:32:20 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/28d2394965c35089019a29749f91694037359dcb9926350ecc0e9a865d43d072"
+    },
+    {
+      "name": "curl",
+      "version": "7.0.0",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "22d277315c5ba7bb1b85c259eaa63c6870e20e78c98fba3a35945af9d47161c5",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-08-21 02:47:57 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/b6452b0b58dec5f0add3d7c877872c79f8855e216da58f496a3edda0bf092669"
+    },
+    {
+      "name": "data.table",
+      "version": "1.18.2.1",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "568460fce274cf54d31347f78f825004ade5c1b7f579270c106162d353675817",
+      "built": "R 4.5.0; x86_64-apple-darwin20; 2026-01-28 05:28:00 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/08b902fd97b4ef717630464af28760598a38421bacaf83eb96bebd2e1c6d68d9"
+    },
+    {
+      "name": "desc",
+      "version": "1.4.3",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "9bd0be32166cbf3562b5d68b0abd2ce9b90fd0b3781806ecf73f9b03ed3145b5",
+      "built": "R 4.5.0; ; 2025-03-31 21:55:26 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/50edec3db6dbc5da7649e86ce19b816452bd1083508bcc0b8ac8f0790721b873"
+    },
+    {
+      "name": "digest",
+      "version": "0.6.39",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "aa6411a5b47f4fa9dc9720e6eb015b371b32b8e2d065131c810779309e7f7c1f",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2025-11-22 19:17:48 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/b8b876ba5854f2ef990f5d7927083d3844835634b0833838346f02ee446da718"
+    },
+    {
+      "name": "doParallel",
+      "version": "1.0.17",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "6cc10ca6125be63eeacfb6b3efe11b2fa677c1a8559fbdf115a032ed156ebbfb",
+      "built": "R 4.5.0; ; 2025-04-01 11:50:21 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/2d1723defbcd2fcbcc6d05bd52c075bc63a87573a1dd5dfb2fe61d698a37186d"
+    },
+    {
+      "name": "dplyr",
+      "version": "1.1.4",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "aee572dad43d46a3f9e3f6980ed11cacb8c467dd9ade62b45d959b6401be57f5",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-04-01 23:28:06 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/2daa4648b4d76e166b7d56bcd2f66d18503f4f2226d2807745af461dd01462ec"
+    },
+    {
+      "name": "evaluate",
+      "version": "1.0.5",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "00ba9a1e2637d0da4befd854af6e7d5a0cf23f3f34150b1bda9cd669ad86f32d",
+      "built": "R 4.5.0; ; 2025-09-01 01:31:01 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/23126d666b11ba9086fa1ebd161cc4ad2d9c0fba2a1469df742d82c99fbf4c77"
+    },
+    {
+      "name": "farver",
+      "version": "2.1.2",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "30a196de382faa48a0abd0f03a3befa606069ac4e10b47f0ee91414b18b57aac",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 21:42:31 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/2ffebbda7b5abc3109836c6b43cab0e42511634efc7d2fafa60f4d784bfbd814"
+    },
+    {
+      "name": "fastmap",
+      "version": "1.2.0",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "4ca3b902cbb250a5eea219e5f07ad2af2fbf36309e25b0bc4eadd490017688df",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 21:43:00 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/3962328c284e7b102eb5c988863f2085dab50303acc07f256b0e98416fd611b7"
+    },
+    {
+      "name": "fontBitstreamVera",
+      "version": "0.1.1",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "28bf55482e828b905f094d984b61eebf96e7f53cfaacbebb3ece1729ae6a7af2",
+      "built": "R 4.5.0; ; 2025-03-31 22:03:16 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/c656278a812811dc0b63441a3be3ddcd5e2cb187f29870770791513d858c22bf"
+    },
+    {
+      "name": "fontLiberation",
+      "version": "0.1.0",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "cf7d0f0eb2cb89fc055656337f10729d796c54d9455925aa4322fbd20a8274e7",
+      "built": "R 4.5.0; ; 2025-03-31 22:03:31 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/6d10598a1c99f3a5891ee081b0a87e3ecda52bada281a2ab4e3a538ede237655"
+    },
+    {
+      "name": "fontawesome",
+      "version": "0.5.3",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "72463890a8a7c56b733b03686c89d5a42a6c9dc770e89ae45f788626701eae06",
+      "built": "R 4.5.0; ; 2025-04-01 11:50:29 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/80caa39b5cca6af2aef0dcfc27202d5b5ccf4e45892b1c88c2b4b2db5cf6ff43"
+    },
+    {
+      "name": "fontquiver",
+      "version": "0.2.1",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "94b12d81fa3348d731826d32f0bdfee1879106bd0c264946f172615b6998dadd",
+      "built": "R 4.5.0; ; 2025-04-01 06:40:35 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/d2a5c7d9e7abda72d90f2505cf26a5474515783cf1b3694afa2966dfaa66f123"
+    },
+    {
+      "name": "foreach",
+      "version": "1.5.2",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "1c94b081a3428accec4e3dd2b5be54f30cbe9beefd53bcb62499d0ce6b317ab3",
+      "built": "R 4.5.0; ; 2025-04-01 06:33:05 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/b8bab83d825f2c4ae76673c25b2902da794a19b185f946dc5d08c7dffc020e49"
+    },
+    {
+      "name": "fs",
+      "version": "1.6.6",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "b3a3e342929a3a0e88b3c9fb2d3583ea6c806137b67823ebd186f7663f2a933e",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-04-12 11:59:24 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/8b0ba6da330c37c1cc71279ebaea2a27e6e66f84372b29bd31d2d16b626a7e16"
+    },
+    {
+      "name": "gdtools",
+      "version": "0.4.4",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "9332a0c63c12ae30cd56086304bccee970f7e7baf5c4630e733b021e2d14de13",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-10-07 14:57:40 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/7ac1dc591e8930726463a37a7e36bee54f099094fbefca1cc3fe72dbb06781f2"
+    },
+    {
+      "name": "generics",
+      "version": "0.1.4",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "9f4f376a218933031dcd7a25aa56fa4c04a71943efafdd6f1237717991a6fde6",
+      "built": "R 4.5.0; ; 2025-05-10 00:42:34 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/5fcea41ea078da11c55671dbbee16f8cc7395ef1710e59d8f548e479bf1485bb"
+    },
+    {
+      "name": "ggplot2",
+      "version": "4.0.1",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "238268fdf79e492efdf21cc449573cdd594bf1447bc3de15c457a48f9bae840c",
+      "built": "R 4.5.2; ; 2025-11-19 04:47:35 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/f1e05587258e86763e3673b8c193a083ec062afa046d27a457e486c9a6aaa6c8"
+    },
+    {
+      "name": "glue",
+      "version": "1.8.0",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "debb6ce679f4737bb9f89af493c9e8ae7c110cc706fc1eb3f27a4f4726675f44",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 21:41:36 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/a1d8e20218f5e823a573d5431b8e6b122b9b23a8d79520512409df035c773459"
+    },
+    {
+      "name": "grDevices",
+      "version": "4.5.2",
+      "install": false,
+      "source": "jasp-app",
+      "tree_sha256": "c54405f57e9e602f556bc42b16caa9e9a0ad1421822a4eb0456fb2bf663f5a0e",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2025-11-01 02:09:04 UTC; unix",
+      "path": "Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/library/grDevices"
+    },
+    {
+      "name": "graphics",
+      "version": "4.5.2",
+      "install": false,
+      "source": "jasp-app",
+      "tree_sha256": "785ca73a08a87f9864006e64bbdfe44b7a980930fc7c82057461e4bef0917b0f",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2025-11-01 02:09:08 UTC; unix",
+      "path": "Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/library/graphics"
+    },
+    {
+      "name": "grid",
+      "version": "4.5.2",
+      "install": false,
+      "source": "jasp-app",
+      "tree_sha256": "15b1bfca24143b80a00cc1f125c37cf3797dc1773075a25a246407422dd1ce2d",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2025-11-01 02:09:28 UTC; unix",
+      "path": "Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/library/grid"
+    },
+    {
+      "name": "gridExtra",
+      "version": "2.3",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "fe30a186c34ef094f606bfc429162af13530054fd4ce7a0b987a275ff0161332",
+      "built": "R 4.5.0; ; 2025-01-26 09:04:20 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/1719909f79fb474b4ea35cceec3b8a606257cc8541bc9f9068f412634d4da396"
+    },
+    {
+      "name": "gridGraphics",
+      "version": "0.5-1",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "5b73e731ec8c5b1090e6d60c3a85122f4e9020c4aa622d0f3dc90fb4c3879f52",
+      "built": "R 4.5.0; ; 2025-03-31 22:41:01 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/5c1ddf13d96dea0c1e3c89b2bc887ddcf2e5cbb225b670b8e42e9b10f37c2242"
+    },
+    {
+      "name": "gtable",
+      "version": "0.3.6",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "adcbb73cfcd8badf58e6277563598d630f7ed59afb980ad714b2a99de3f3f2d0",
+      "built": "R 4.5.0; ; 2025-04-01 11:49:51 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/b35d9ea3a062634a3203d568a1aa6920395f41efcb8dc38564529328b189d5f7"
+    },
+    {
+      "name": "highr",
+      "version": "0.11",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "8502d4b14d44e3170300e7f4d2bd6f00f7ac69d5313612bc421af4e00c9423ea",
+      "built": "R 4.5.0; ; 2025-04-01 06:32:49 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/077c4f73c737f3457a8216035bdf6560169e3f95052315f45bf0351d5ef220b5"
+    },
+    {
+      "name": "htmltools",
+      "version": "0.5.9",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "e8607eeb1f49f8ae398586dbe28e94e088ec883fe719d15deb11176d82fa49af",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2025-12-04 12:12:04 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/47eebf0e4c57b5dd251ec52cab29ee4bbc1b69340ef47f1366889eb6884deada"
+    },
+    {
+      "name": "htmlwidgets",
+      "version": "1.6.4",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "9f2138d15bb1066fcfd5c71b5924173e56f246514235611c7371bc350c60e5b3",
+      "built": "R 4.5.0; ; 2025-04-01 23:26:28 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/374f3787b9e9eef62e259d996ee32fa5f635878754ade45f3e4e05d9f1d054a1"
+    },
+    {
+      "name": "httr",
+      "version": "1.4.7",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "2dba564cae038f7a076e83c9e57937ccf1273a39e0a1505ad03d8fd2c332e0d8",
+      "built": "R 4.5.0; ; 2025-04-01 15:55:58 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/54fd84e7d3036fd53fd53ddb9a023433491fb8819fb6163b345c7ea57aa6c74a"
+    },
+    {
+      "name": "isoband",
+      "version": "0.3.0",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "321ff90d8ba3a615d25ac66b9d58202c13f578432f896d47881774a3de3ecaf6",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2025-12-07 07:05:55 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/a5bec19923b80caf1130f53ad3d739e7bfc7260b5527d424761d5cfd21d55e68"
+    },
+    {
+      "name": "iterators",
+      "version": "1.0.14",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "d3a533f11dd6057755092cc7441a8d9abe72893d74072bd190cbfeee197f6926",
+      "built": "R 4.5.0; ; 2025-03-31 21:42:23 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/1b8a88478de6462ee30c64e8aaa985ae83430c556c82d437d4010223929566d3"
+    },
+    {
+      "name": "jaspBase",
+      "version": "0.20.4",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "c717033d909beace441e49a8743ab2a1de7fea4d88349b82e4c972854171afcb",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2026-10-20 17:48:45 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/adb00beb9e7198cc36293de436e43fa8f79c9075e382d99b28b7f79d8ff09951"
+    },
+    {
+      "name": "jaspGraphs",
+      "version": "0.20.0",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "d33f9b868eeaf6abf1fd590e32914967eae17aa08265e33ea3740a5511574f79",
+      "built": "R 4.5.2; ; 2026-10-20 17:48:33 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/2b571036a4d6f559dcccc131eca7b8290a37f3e717da12e7fabc836985f9d74e"
+    },
+    {
+      "name": "jquerylib",
+      "version": "0.1.4",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "fe233a8f4f0f430a18c17decd266502e8782f16f2c863bbd8a1f8c9b812f1c2d",
+      "built": "R 4.5.0; ; 2025-04-01 11:50:17 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/b4dde61ec824ce7be613b9eef1571b6e9b254014907ca03bed62fe768b7d0437"
+    },
+    {
+      "name": "jsonlite",
+      "version": "2.0.0",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "3fcfb251df410e2afa4c2034854bf8ffcca89ac4b6562b346743489dcec3d4d6",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-27 07:33:55 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/4723f9380739e38a49c875c2334c73f13f0c5a4b9058d88fb3af577f60ebd6a5"
+    },
+    {
+      "name": "knitr",
+      "version": "1.51",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "2dcf2a0cadc1c406cb608543e267de13d1af43fae2180d7f311d49eb95245c74",
+      "built": "R 4.5.2; ; 2025-12-21 22:52:57 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/79bc67973178184d6abd8dd53fbc4b8c60b8f5aaee1a56b9d9475c07c8e8aabf"
+    },
+    {
+      "name": "labeling",
+      "version": "0.4.3",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "f558056b58815d8179ad6c44c142fb38b027dc0672f733f95fdaff2b7f6d6fd4",
+      "built": "R 4.5.0; ; 2025-03-31 21:42:34 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/d4654af25e9c45fed2740456aa50370596cc87ca99c60db4a79a553248ad9fba"
+    },
+    {
+      "name": "later",
+      "version": "1.4.5",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "fa7f03aec9be9a489a59a0454be3e35e3d221db09fa06b0640da8c6ab939c0b1",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2026-01-08 07:02:57 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/b5419a37e6bdcfb10e08485ccae3cd49a8cf91b1101e5169e3ea44fb029be226"
+    },
+    {
+      "name": "lattice",
+      "version": "0.22-7",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "259d55e2665ad89db164b5d0dc18ed60684157df3b22c91c67bfc9de6868a7bd",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2025-11-01 02:09:42 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/ab9316bda46dc12c94b5baf522a6e836b75c394286c581f9dd76a4e6f401a64f"
+    },
+    {
+      "name": "lazyeval",
+      "version": "0.2.2",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "73c29196c049ec00ae1472749f8a25b685646b69ba7757c3664a247ce5dbb08b",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 21:52:09 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/16e10fad72d1d6541cfec855badf33705800404abc3cdbf499badb00d50af934"
+    },
+    {
+      "name": "lcmm",
+      "version": "2.2.2",
+      "install": true,
+      "source": "cran-binary",
+      "tree_sha256": "ff0a530f5f1b8bdc82b3f6325312c5045ec3f655eb215ba35ea120831be065bf",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2025-11-22 19:22:14 UTC; unix",
+      "archive": "lcmm_2.2.2_R4.5_arm64.tgz",
+      "url": "https://cran.r-project.org/bin/macosx/big-sur-arm64/contrib/4.5/lcmm_2.2.2.tgz",
+      "archive_sha256": "1a55f03b9dd20c5e535b072364832d54fc58fbbbe94b54cac515f4789cd88cb1"
+    },
+    {
+      "name": "lifecycle",
+      "version": "1.0.5",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "4d22559cdbc8a0d12f6479a3c43b78b683e995a3667442a8f253ac939dc3aa0d",
+      "built": "R 4.5.2; ; 2026-01-08 12:03:10 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/d35bf3082fc5ce60c7d227800674c27b696afe716d6989344edc67c7e5db7568"
+    },
+    {
+      "name": "magrittr",
+      "version": "2.0.4",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "ef0c1084da77d1da885996991cae64da3460f6463f2caf4fefee742baadaccd6",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-09-12 08:49:30 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/75581f508a4afcb6899d1350b0626c1d2b050757f13b5e20a236ec9d1e1d2b48"
+    },
+    {
+      "name": "marqLevAlg",
+      "version": "2.0.8",
+      "install": true,
+      "source": "cran-binary",
+      "tree_sha256": "d7c057fe7cb85a13941ef355750cbfb266f3b2dd9f042744750cf4ab618168ca",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-04-01 13:17:31 UTC; unix",
+      "archive": "marqLevAlg_2.0.8_R4.5_arm64.tgz",
+      "url": "https://cran.r-project.org/bin/macosx/big-sur-arm64/contrib/4.5/marqLevAlg_2.0.8.tgz",
+      "archive_sha256": "d69d1b626e2447229a2a63e4db3c4d14ab98e2c46db0543922c0c86be12e87de"
+    },
+    {
+      "name": "memoise",
+      "version": "2.0.1",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "e8366f7a888fb221eca83b791b37ce4aa8dcf32c37a9a688fd3a88e651cae828",
+      "built": "R 4.5.0; ; 2025-04-01 06:31:57 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/536456ab5ffdfdfa0cd2869a8b07f5f79a7095bb68546e5b6cf80b827e165e56"
+    },
+    {
+      "name": "methods",
+      "version": "4.5.2",
+      "install": false,
+      "source": "jasp-app",
+      "tree_sha256": "ffcc3798c1e5d5b25d9b91985a287831af4695e7d59c36b8fbe0a08d548559c7",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2025-11-01 02:09:22 UTC; unix",
+      "path": "Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/library/methods"
+    },
+    {
+      "name": "mime",
+      "version": "0.13",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "e863f69cb0c68aebd7a7d4b65f42823497e34c5f4e66b6c8d9a9f608c3c36487",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 21:43:02 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/bb3703e99ad5857e16801ff81a53a4c69288ba4787ddcf19cf66ba39b97d881d"
+    },
+    {
+      "name": "mvtnorm",
+      "version": "1.3-3",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "f5341888b500cfcc1ced915418294fa13baf628681247cc22bba981794f18794",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 21:50:03 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/a32fb6d32ff115824b1d4c761c525eb5c501460302c187e5b732eea6d4bcb3ec"
+    },
+    {
+      "name": "nlme",
+      "version": "3.1-168",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "58d8f0e5047eae2156210054d4cc7ffade635d1f2ec2f05cd16395bc9adfdbf8",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2025-11-01 02:09:47 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/3fe50f06439c6242d60b8be8c0b98451fddcff21714f74f1b2d53ea8cfc67e41"
+    },
+    {
+      "name": "numDeriv",
+      "version": "2016.8-1.1",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "ac6eaa9b7428c8edd1c7c7eb43a2c034d17089bf990a03883b164473d83a7649",
+      "built": "R 4.5.0; ; 2025-03-31 21:55:04 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/034f22fad62858acd3068b453b8d98ce74bbec5551649b9e2b3d327bb04d2cf6"
+    },
+    {
+      "name": "officer",
+      "version": "0.7.3",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "b9f4564036451f3d0671128aa0655c34e1a23b7943d650a195e1ec2e32712be2",
+      "built": "R 4.5.2; ; 2026-01-16 21:48:44 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/8ef59c83767225003bb6788ab4b291bcafd5730c18ef519e9ab87aa9338e5fd4"
+    },
+    {
+      "name": "openssl",
+      "version": "2.3.4",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "a3d9456d5dbb009e5f288ff8437786cfe62f868418a84fc3a12e6045a0c15f27",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-09-30 15:37:19 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/a0de7408ca5d8c3555d7d39706c77a2405748dc406445d49cecd12026fd202b0"
+    },
+    {
+      "name": "otel",
+      "version": "0.2.0",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "cde473ffeb01fa0e1aea3c5f1dca085e9b9025d0e7d8248521b477bfd616581f",
+      "built": "R 4.5.0; ; 2025-09-01 01:35:46 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/3c3c0f21c683a02af23c8cca5f8eaa09dce41089d6e159686bf973da211d5fbb"
+    },
+    {
+      "name": "parallel",
+      "version": "4.5.2",
+      "install": false,
+      "source": "jasp-app",
+      "tree_sha256": "259749e4782a4e9df5340e7455f371984d3b69b2434e44d86124fdd6a96bf4ce",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2025-11-01 02:09:32 UTC; unix",
+      "path": "Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/library/parallel"
+    },
+    {
+      "name": "pillar",
+      "version": "1.11.1",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "a5792c40144c845861863236cfa52151716ec161f84971ba5f1458917eaef0de",
+      "built": "R 4.5.0; ; 2025-09-17 13:45:18 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/16015822e49298beab62b7893033881e8e47b6480905d86b998cf1a4ecb90cf2"
+    },
+    {
+      "name": "pkgbuild",
+      "version": "1.4.8",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "b10a767d3d65c6b260835c74ec9d4c95ad36597eb8cdc6aed5a3e3151d698c66",
+      "built": "R 4.5.0; ; 2025-05-26 15:14:03 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/75919d63695d6d8eccc08e2a0b4cbb729b11c4ee34d8a862a31a1da2674fa4c0"
+    },
+    {
+      "name": "pkgconfig",
+      "version": "2.0.3",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "83fcc308a9c7b25dfb9cb26afde3fa47ff41fa1b37de55e7416aebb9618a7b6e",
+      "built": "R 4.5.0; ; 2025-03-31 21:41:54 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/2b33f289c3e37738bfc5ad357ace095fa34273a16b53d10f77d39984e00654b9"
+    },
+    {
+      "name": "plotly",
+      "version": "4.12.0",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "ec778ac2ea1b54cd55fac441825e1b4b75982a21d470d0d12869274e6054f83b",
+      "built": "R 4.5.2; ; 2026-01-24 08:05:52 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/76352448e1ed700d11acabd8f1bb35d6f988bc4be0b95cdd72c11b269594f9a1"
+    },
+    {
+      "name": "plyr",
+      "version": "1.8.9",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "66dc5124698f546fa8bcb8ba36599955b202119f588dfca0c614d4b228f3b6ae",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 21:45:45 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/e5753614ddc18d3553315d69bce3bbe52b59284160c54722320fe9dbaac9fd0d"
+    },
+    {
+      "name": "processx",
+      "version": "3.8.6",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "b14c95cc20ff68fead497f5274f6a13e29250563601101838a7e636b48ba105d",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-04-01 06:37:39 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/64198a6ffa0a3948a08e87e5ad28892a7b5767e14c0c605c25b8b47ffef5534b"
+    },
+    {
+      "name": "promises",
+      "version": "1.5.0",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "d773169f26ab3cc779f0104c1672204aad5c420b99fc9eb284af47511d9ee943",
+      "built": "R 4.5.0; ; 2025-11-01 08:07:07 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/6e9a50fdbdfe0d73a55445d42af25d63356894cd800e8a60f86a4264c246f6a1"
+    },
+    {
+      "name": "ps",
+      "version": "1.9.1",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "da0998e4a7d2307ba6665dd3b323ef6522265301f5b6ba2d9c85c8f0f4fa65ae",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-04-12 10:19:37 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/e358cc582e202519114749c864cc8383700a882427d029427ce19af6b5cdd9da"
+    },
+    {
+      "name": "purrr",
+      "version": "1.2.1",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "5e4926db5c2ba6d3c2ec15c49ef868e3fed3aaf9eb8c2c0b39b16423af063b20",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2026-01-09 12:00:11 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/316a2ce03eaff2aa3987f884c7539cab7bb75d659e2bc331a4f77604f99c3aab"
+    },
+    {
+      "name": "ragg",
+      "version": "1.5.0",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "47b0b8ef3ecdfa2abbea2f1fb5479af9c755520c2c4e1b723c58a3cf48d3865c",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-09-03 22:18:17 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/46656db46366c8087f905cd4dd320e5d4550e58972ce629587085bb9a3eac010"
+    },
+    {
+      "name": "rappdirs",
+      "version": "0.3.4",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "f12624c0b77d11e01d978e74a4251c6ab51b85574887a49bcba063a1eb6e8039",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2026-01-17 11:42:54 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/e980de419acf68ce567d7adad3d2eedca13aa870f2a4c4b66dcfe0bb13e42703"
+    },
+    {
+      "name": "rlang",
+      "version": "1.1.7",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "4a6fdb823c71cf98c935d710cd5718aebb20f2c91636e7a118a74d5ed8f918bc",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2026-01-09 16:51:14 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/2a521b00b3bab39795e2154e382fcf0d66dad3393f3b4680fba987d200ff9a79"
+    },
+    {
+      "name": "rmarkdown",
+      "version": "2.30",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "af2e642034c48019f8a7edf5b460e17aaa9c6765dfdc26022a83da3f8199b314",
+      "built": "R 4.5.0; ; 2025-09-30 15:59:16 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/917f7268a231cf95604e7d9b2275fb717ab19ddb39c10f7d9a96ce5273c8c4d3"
+    },
+    {
+      "name": "rvg",
+      "version": "0.4.0",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "03b8be93b7270ad5f93105fa5edcfcb82eb80db19bda2fefb7c18105c3a182b5",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-10-07 15:04:25 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/c262a0c14868272cf084a61e7d2353467929d454ef0db76edb8d180548c0f339"
+    },
+    {
+      "name": "sass",
+      "version": "0.4.10",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "be5527b59042bd6b96796a35b94869cd254659f6d76fd1f44ba16e99abe374ec",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-04-11 21:17:02 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/51d71af795f38822b409813dba40b119e9ab66a3009bfd8db00f69469dbcf8f7"
+    },
+    {
+      "name": "scales",
+      "version": "1.4.0",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "e8c8d78f7370a3770c6eb0023c61d28feb1103f3441aabad76d0527ec50c0e17",
+      "built": "R 4.5.0; ; 2025-04-24 11:54:38 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/c703e755d1f8bc81cd6c562480c999750a926adef2bd9ef353706ff68da358e1"
+    },
+    {
+      "name": "spacefillr",
+      "version": "0.4.0",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "990bf0f2670aadc28df726804f0e6c19e1db81904ea94d939f8ebe54392bd944",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 22:50:10 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/0721ef837d913c706af81b6c492145bb787829a59e063991dced234e8ea9ad30"
+    },
+    {
+      "name": "splines",
+      "version": "4.5.2",
+      "install": false,
+      "source": "jasp-app",
+      "tree_sha256": "94c9f8c1a998215794dd21a965c7a0cf8ad354804b0e7b869d54e115bdf7bca1",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2025-11-01 02:09:31 UTC; unix",
+      "path": "Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/library/splines"
+    },
+    {
+      "name": "stats",
+      "version": "4.5.2",
+      "install": false,
+      "source": "jasp-app",
+      "tree_sha256": "ae2bdeef86d4536ec72ddc7fbf5bb15b4fef8f2e7588aaaf913ec7a8416dfe22",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2025-11-01 02:09:10 UTC; unix",
+      "path": "Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/library/stats"
+    },
+    {
+      "name": "stringi",
+      "version": "1.8.7",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "dda3b9cc87484be2b19487c09bf4e0bee164cc2fe987406a3c0a20628d7eb659",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 21:46:23 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/33c36fc26cfe05225ae197786b0614628a541607d220483cde81a47b2e009942"
+    },
+    {
+      "name": "stringr",
+      "version": "1.6.0",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "741fd99ce24f2ded59b6ab8b7bf6fa306d31a7a5b8dbc9082ba1861cf875de1a",
+      "built": "R 4.5.0; ; 2025-11-04 17:37:12 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/84c8e194f40e2a4e5ccb971d4f4650cd50a3070c49ce676f064f6f88c054a7a7"
+    },
+    {
+      "name": "survival",
+      "version": "3.8-3",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "30a13636cc61c1f9caea50d470a1a6e7308ae50c3855b7df53893501b5d28527",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2025-11-01 02:10:16 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/87e39655b2f50d2f29f25ca0021b741e79d21362e4e6db99c261499f9129a8ab"
+    },
+    {
+      "name": "svglite",
+      "version": "2.2.2",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "e3301f375fd9396973a4930cd0328fbc500ffbb85e1180472306853e66a62281",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-10-21 18:14:11 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/8a7543a9c69bcdee4f504421d53e17b2aad48099aeb60ad3c24e309aae226d02"
+    },
+    {
+      "name": "sys",
+      "version": "3.4.3",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "8f2175a75fe7f3564a2a01d2777f44290f31e3c9a09bf475573b8d9659baea5d",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 21:48:25 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/2e1cbfb70df98f247d9313de6ed9e47f52d34dfc5b5139ef9a14eedc3467e6f6"
+    },
+    {
+      "name": "systemfonts",
+      "version": "1.3.1",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "65117f90babba51e43739bb0152ed52f5374bf46a50ad073e5d15d769cfe35e2",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-10-07 14:49:39 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/8750a9df268e9a82358f3ce65dc5720ec8194401ec737000dd3f1bebe7cf3cda"
+    },
+    {
+      "name": "textshaping",
+      "version": "1.0.4",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "174448393eada2b5e8449f4a8baade5416d9405cd07c6403c86f01d781c929cf",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-10-10 11:15:36 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/8bc93e958f5f88d2563a0a48d1a856fa40ec08acc02b0e4c129be426bf840295"
+    },
+    {
+      "name": "tibble",
+      "version": "3.3.1",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "f4d8c8ca657bf0bb83a94090805332caab2d47fb0514665e9523d6088ee05d4c",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2026-01-11 11:35:41 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/cd80fdd86a7aeb1a8fec059f8dcae4e845601e7d733fb4960c6506ee08f9e1fb"
+    },
+    {
+      "name": "tidyr",
+      "version": "1.3.2",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "8b4dae904bec139f09f771f475d1a809e06a0d55b078bbb3f80be0b50884a3c4",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2025-12-21 22:56:43 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/098c1b19d66d1b230b6f56de8a262ccca8d1b7e8b64c8d36da42b7da6da99ef3"
+    },
+    {
+      "name": "tidyselect",
+      "version": "1.2.1",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "6392b09b5b6f3f16f40cebb09b89782aa209b5a2371ce5b65f0fd11f258af3ac",
+      "built": "R 4.5.0; ; 2025-04-01 15:54:40 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/805a926578f36ae6e0c6a8aeb58047403e4fd6539319a4d678bcb0d3d60db206"
+    },
+    {
+      "name": "tinytex",
+      "version": "0.58",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "05e29efb3a5c82ca9727429be2addfeeb41491de26bc5b3ecf092c3d75e638de",
+      "built": "R 4.5.2; ; 2025-11-20 10:11:08 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/2fbe227806a5b7f113b4bfcf0f33422c124827e5e2508a61dedfc6fc8971d23e"
+    },
+    {
+      "name": "tools",
+      "version": "4.5.2",
+      "install": false,
+      "source": "jasp-app",
+      "tree_sha256": "208392749938e408576f9b655559384f3300ca91ccaaf65858c390d54aa641aa",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2025-11-01 02:08:46 UTC; unix",
+      "path": "Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/library/tools"
+    },
+    {
+      "name": "utf8",
+      "version": "1.2.6",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "96c3e0549ac0a0ec867c28969223eddf6f815ceca3072e294b02f4558f5cbd81",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-06-08 20:24:56 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/a08f65a971d4de8bdb06f18e0f9b9ac804121e25942b38db43bb2232a13e31dc"
+    },
+    {
+      "name": "utils",
+      "version": "4.5.2",
+      "install": false,
+      "source": "jasp-app",
+      "tree_sha256": "2f7e70b62ec018c37b139bcdeb031c52a73929938b2f2024446c922aa1706fde",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2025-11-01 02:09:00 UTC; unix",
+      "path": "Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/library/utils"
+    },
+    {
+      "name": "uuid",
+      "version": "1.2-2",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "5f1fca80ae2ff0986532daadf53c0a90027bdfd0e79e5b3cbed63ab6d1e9650b",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2026-01-23 08:06:03 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/ef868a4a22e9e8a9c7ed870d5be6b112b31333ab6084550a17c817dffcf8c9fa"
+    },
+    {
+      "name": "vctrs",
+      "version": "0.7.1",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "bf1eb5ec996f83330a49e07446a02c7cf9205b45656e27459f7dc30ccffee87b",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2026-01-23 22:37:24 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/2f7b1bd0a52eb3259f14ff64343cef08f1e4e398d1e385d71f28fc1ad8a26511"
+    },
+    {
+      "name": "viridisLite",
+      "version": "0.4.2",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "e5686ad686233482958b977ee7a4210ed1c5d58d3ea24915d4786345a0ca6237",
+      "built": "R 4.5.0; ; 2025-01-21 00:20:28 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/fcb3c65431e43df05d2110c87ea91907a09d696496a91432ce8ee25d958227ce"
+    },
+    {
+      "name": "withr",
+      "version": "3.0.2",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "7be0ab443fd7ede2868a977563d242347d7583a1ea063c4cdfe40646db506d5f",
+      "built": "R 4.5.0; ; 2025-03-31 21:42:13 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/2c84297c363c5546e28984fb8c013f63d16a274c50c7fd3a76c429c20f86cb20"
+    },
+    {
+      "name": "xfun",
+      "version": "0.56",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "0a760cf8331d5ae724ae4d3fa84c8d4d1f61f70ae6c19746cb53e30e5d397d24",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2026-01-18 06:33:20 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/a42b74a17fd1d2b433acf3a7eac0a9e49e0362f65b6486342651bff750f60cca"
+    },
+    {
+      "name": "xml2",
+      "version": "1.5.2",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "600a3e66828b3f9b940c70c27d458c05286d5a24d29d16cb2f070b4f2d8db432",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2026-01-17 16:23:11 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/31aa7664707abc06698e3fcef1b7c3b3e4edce7715e660b62def0fc40fcf432b"
+    },
+    {
+      "name": "yaml",
+      "version": "2.3.12",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "bccfc98cb668ef45cb1b480431cdb067e401529ef3a14832da1aa33c169f866a",
+      "built": "R 4.5.2; aarch64-apple-darwin20; 2025-12-10 09:31:17 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/82248d60de4812e40f63ed39619893f4183c76e96e405049f88f31570810f9db"
+    },
+    {
+      "name": "zip",
+      "version": "2.3.3",
+      "install": true,
+      "source": "jasp-app",
+      "tree_sha256": "8395978cc695737b8666708e17c9dac31c20e88890d51ab2ef0edd24f3b58df3",
+      "built": "R 4.5.0; aarch64-apple-darwin20; 2025-05-13 15:17:31 UTC; unix",
+      "path": "Contents/Modules/binary_pkgs/e2a8fd1ce2eea41060de3978304a24e60d31199df42cc98e8ed07360bdd146b1"
+    }
+  ]
+}

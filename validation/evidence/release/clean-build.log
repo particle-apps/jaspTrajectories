@@ -1,0 +1,44 @@
+R version: 4.5.2 
+Library paths: /private/tmp/jaspTrajectories-public-beta-0.1.0/build/library; /Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/library 
+Verified 111 locked packages; restored 101 into an empty private library.
+Building jaspBase from pinned package and Common sources; log: /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/install.log
+PASS: pinned jaspBase source build installed; 49 Common file hashes recorded.
+Binary SHA-256: 4182d34d9c25dcebdbd15d33c926745e8552b6a6f1b256e9bf8f0e69ba427587
+Building against R version 4.5.2 (2025-10-31) and lcmm 2.2.2 
+* installing *source* package ‘jaspTrajectories’ ...
+** this is package ‘jaspTrajectories’ version ‘0.1.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+Warning in file.copy(file.path(R.home("doc"), "html", "R.css"), outman) :
+  problem copying /Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/doc/html/R.css to /private/tmp/jaspTrajectories-public-beta-0.1.0/build/library/00LOCK-jaspTrajectories/00new/jaspTrajectories/html/R.css: No such file or directory
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (jaspTrajectories)
+Installed JASP module resources verified.
+Created /private/tmp/jaspTrajectories-public-beta-0.1.0/dist/jaspTrajectories.JASPModule
+Build provenance: /private/tmp/jaspTrajectories-public-beta-0.1.0/build/dependency-provenance.json
+
+Final package source installation:
+* installing *source* package ‘jaspTrajectories’ ...
+** this is package ‘jaspTrajectories’ version ‘0.1.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+Warning in file.copy(file.path(R.home("doc"), "html", "R.css"), outman) :
+  problem copying /Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/doc/html/R.css to /private/tmp/jaspTrajectories-public-beta-0.1.0/build/library/00LOCK-jaspTrajectories/00new/jaspTrajectories/html/R.css: No such file or directory
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (jaspTrajectories)
+
+Final bundle creation:

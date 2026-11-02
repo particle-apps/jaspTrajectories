@@ -1,0 +1,41 @@
+R 4.5.2; lcmm 2.2.2
+PASS 01: available-outcome Gaussian likelihood agrees with native hlme
+PASS 02: Gaussian coefficient estimates agree with native hlme
+PASS 03: LCGA contains no subject random effects
+PASS 04: available-outcome counts retain partially observed subjects
+PASS 05: prepared observations retain correct links to original rows and times
+PASS 06: complete-subject mode drops only subjects with missing selected outcomes
+PASS 07: complete-subject classification excludes removed subject IDs
+PASS 08: non-syntactic column names and text IDs preserve the fitted likelihood
+PASS 09: classification restores original text subject IDs
+PASS 10: cubic trajectory includes all three time powers with correct scaling
+PASS 11: GMM supports correlated random intercepts and slopes
+PASS 12: diagonal GMM omits the random intercept-slope covariance
+PASS 13: fitting restores the caller's random-number state
+PASS 14: identical multistart seeds reproduce estimates and likelihood
+PASS 15: mixture posterior probabilities are valid for every retained subject
+PASS 16: continuous predictions have one value per requested original time and class
+PASS 17: continuous prediction intervals are finite and ordered
+PASS 18: reported model statistics match native lcmm output
+PASS 19: coefficient table retains the native longitudinal estimates, SEs, tests and p values
+PASS 20: ordinal threshold likelihood agrees with native lcmm
+PASS 21: ordered outcome category labels retain their declared order
+PASS 22: ordinal LCGA handles missing outcomes without introducing random effects
+PASS 23: ordinal predictions match native expected category scores
+PASS 24: ordinal GMM includes the selected subject random intercept
+PASS 25: ordinal mixture returns a valid posterior classification per subject
+PASS 26: ordinal mixture predictions cover each class and stay within category-code range
+PASS 27: zero classes are rejected
+PASS 28: unsupported polynomial degree is rejected
+PASS 29: unknown outcome columns are rejected
+PASS 30: class covariance scaling is rejected for LCGA
+PASS 31: class covariance scaling needs multiple classes
+PASS 32: missing subject identifiers are rejected
+PASS 33: nonfinite observation times are rejected
+PASS 34: duplicate subject-time observations are rejected
+PASS 35: unordered ordinal factor levels require an explicit order
+PASS 36: an outcome with no observed values is rejected
+PASS 37: input data frame is unchanged after fitting and prediction
+PASS 38: input CSV is unchanged after fitting and prediction
+
+All 38 checks passed. These checks do not replace an in-JASP installation/UI test.

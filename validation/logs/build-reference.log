@@ -1,0 +1,66 @@
+Reference generation: jaspTrajectories 0.1.0; lcmm 2.2.2; fresh fits only.
+RUN C01: continuous lcga 1 class(es), linear
+Now rendering a plot with name: trajectories
+could not find an old plot
+PASS C01: logLik = -1125.30959875
+RUN C02: continuous lcga 1 class(es), quadratic
+Now rendering a plot with name: trajectories
+could not find an old plot
+PASS C02: logLik = -1124.93630075
+RUN C03: continuous lcga 1 class(es), cubic
+Now rendering a plot with name: trajectories
+could not find an old plot
+PASS C03: logLik = -1124.35443573
+RUN C04: continuous lcga 2 class(es), linear
+Now rendering a plot with name: trajectories
+could not find an old plot
+ Numerical problem by computing fn 
+          value of function is : NaN 
+SEED 3821: convergence = 1; logLik = -990.462888405134
+SEED 54321: convergence = 1; logLik = -990.462888405161
+PASS C04: logLik = -990.462888405
+RUN C05: continuous gmm 1 class(es), linear
+Now rendering a plot with name: trajectories
+could not find an old plot
+PASS C05: logLik = -795.746852527
+RUN C06: continuous gmm 2 class(es), linear
+Now rendering a plot with name: trajectories
+could not find an old plot
+SEED 3821: convergence = 1; logLik = -784.268696805213
+SEED 54321: convergence = 1; logLik = -784.26869680535
+PASS C06: logLik = -784.268696805
+RUN C07: continuous gmm 1 class(es), linear
+Now rendering a plot with name: trajectories
+could not find an old plot
+PASS C07: logLik = -808.004650592
+RUN O01: ordinal lcga 1 class(es), quadratic
+Now rendering a plot with name: trajectories
+could not find an old plot
+PASS O01: logLik = -3856.57719437
+RUN O02: ordinal lcga 2 class(es), quadratic
+Now rendering a plot with name: trajectories
+could not find an old plot
+SEED 3821: convergence = 2; logLik = -3455.0233533306
+SEED 54321: convergence = 1; logLik = -3455.02335330135
+PASS O02: logLik = -3455.0233533
+RUN O03: ordinal gmm 1 class(es), quadratic
+Now rendering a plot with name: trajectories
+could not find an old plot
+PASS O03: logLik = -3388.97177512
+RUN M01: continuous lcga 1 class(es), linear
+Now rendering a plot with name: trajectories
+could not find an old plot
+PASS M01: logLik = -1093.78952336
+RUN M02: continuous lcga 1 class(es), linear
+Now rendering a plot with name: trajectories
+could not find an old plot
+PASS M02: logLik = -1017.57164576
+RUN P01: ordinal gmm 1 class(es), linear
+Now rendering a plot with name: trajectories
+could not find an old plot
+PASS P01: logLik = -2096.72328568
+RUN P02: ordinal gmm 1 class(es), linear
+Now rendering a plot with name: trajectories
+could not find an old plot
+PASS P02: logLik = -1870.46334444
+ALL 128 AUTOMATED CHECKS PASSED across 14 cases.

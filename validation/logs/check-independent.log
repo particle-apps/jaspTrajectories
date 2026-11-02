@@ -1,0 +1,15 @@
+PASS: C01 independent likelihood and posterior probabilities
+PASS: C02 independent likelihood and posterior probabilities
+PASS: C03 independent likelihood and posterior probabilities
+PASS: C04 independent likelihood and posterior probabilities
+PASS: C05 independent likelihood and posterior probabilities
+PASS: C06 independent likelihood and posterior probabilities
+PASS: C07 independent likelihood and posterior probabilities
+PASS: O01 independent likelihood and posterior probabilities
+PASS: O02 independent likelihood and posterior probabilities
+NOT CHECKED independently: O03 ordinal GMM integration
+PASS: M01 independent likelihood and posterior probabilities
+PASS: M02 independent likelihood and posterior probabilities
+NOT CHECKED independently: P01 ordinal GMM integration
+NOT CHECKED independently: P02 ordinal GMM integration
+22 independent density checks passed.

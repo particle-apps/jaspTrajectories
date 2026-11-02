@@ -1,0 +1,15 @@
+* installing *source* package ‘jaspTrajectories’ ...
+** this is package ‘jaspTrajectories’ version ‘0.1.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+Warning in file.copy(file.path(R.home("doc"), "html", "R.css"), outman) :
+  problem copying /Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/doc/html/R.css to /private/tmp/jaspTrajectories-public-beta-0.1.0/build/library/00LOCK-jaspTrajectories/00new/jaspTrajectories/html/R.css: No such file or directory
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (jaspTrajectories)

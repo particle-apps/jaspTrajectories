@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "installer_sha256": "553249c926ab3aad8d7b05c46df67cf481c923f71d16708ffb2284ca62d8e42c",
+  "manifest_matches": true,
+  "complete": true,
+  "version": "0.1.0",
+  "platform": "MacOS arm64 R-4.5",
+  "dependency_trees_checked": 101,
+  "common_files_checked": 49,
+  "libdeflate_notice_sha256": "4ad69099cb4374836fd27583d9991e2838cd86b6e4666ab26b2d32582c91e73a",
+  "jaspbase_binary_sha256": "4182d34d9c25dcebdbd15d33c926745e8552b6a6f1b256e9bf8f0e69ba427587",
+  "jaspbase_installed_provenance_sha256": "d9ee09107ed2230eba8629340d9b31a3dd1bca44cf1cbffd5c7ae03e6490cff0",
+  "ragg_native_code_unchanged": true,
+  "rcpp_unchanged": true,
+  "native_jasp_output_exit_code": 0,
+  "output_plots_directory": "/private/tmp/jaspTrajectories-public-beta-0.1.0/bundle-test-output/build/preview",
+  "r_source_references_neutral": true,
+  "scope": "Isolated native bundle-manager installation and fresh-process native JASP object tests; not desktop UI interaction."
+}

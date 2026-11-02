@@ -1,0 +1,156 @@
+* installing *source* package ‘jaspBase’ ...
+** this is package ‘jaspBase’ version ‘0.20.4’
+** using staged installation
+Found INCLUDE_DIR: /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/source/jaspBase/inst/include/Common
+** libs
+using C++ compiler: ‘Apple clang version 21.0.0 (clang-2100.1.1.101)’
+using C++20
+using SDK: ‘MacOSX26.5.sdk’
+"/Library/Developer/CommandLineTools/usr/bin/clang++" -arch arm64 -mmacosx-version-min=11.0 -isysroot "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk" -std=gnu++20 -I"/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include" -DNDEBUG  -I'/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include' -I/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/opt/R/arm64/include   -DRCPP_NO_SUGAR -I"/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/source/jaspBase/inst/include/Common" -fPIC  -falign-functions=64 -Wall -g -O2  -c RcppExports.cpp -o RcppExports.o
+"/Library/Developer/CommandLineTools/usr/bin/clang++" -arch arm64 -mmacosx-version-min=11.0 -isysroot "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk" -std=gnu++20 -I"/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include" -DNDEBUG  -I'/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include' -I/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/opt/R/arm64/include   -DRCPP_NO_SUGAR -I"/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/source/jaspBase/inst/include/Common" -fPIC  -falign-functions=64 -Wall -g -O2  -c jaspColumn.cpp -o jaspColumn.o
+In file included from RcppExports.cpp:4:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/Rcpp.h:27:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/RcppCommon.h:In file included from 30:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/Rcpp/r/headers.hjaspColumn.cpp::1:
+In file included from ./jaspColumn.h:4:
+In file included from ./jaspObject.h:3:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/Rcpp.h:2771:
+In file included from /Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include/R.h:70:
+/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include/R_ext/Boolean.h:62::
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/RcppCommon.h:30:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/Rcpp/r/headers.h:71:
+In file included from /Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include/R.h:7036: warning: unknown warning group '-Wfixed-enum-extension', ignored [-Wunknown-warning-option]
+:
+/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include/R_ext/Boolean.h:62:36: warning: unknown warning group '-Wfixed-enum-extension', ignored [-Wunknown-warning-option]
+   62 | #  pragma clang diagnostic ignored "   62 | #  pragma clang diagnostic ignored "-Wfixed-enum-extension"
+      |                                    ^
+-Wfixed-enum-extension"
+      |                                    ^
+1 warning generated.
+"/Library/Developer/CommandLineTools/usr/bin/clang++" -arch arm64 -mmacosx-version-min=11.0 -isysroot "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk" -std=gnu++20 -I"/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include" -DNDEBUG  -I'/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include' -I/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/opt/R/arm64/include   -DRCPP_NO_SUGAR -I"/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/source/jaspBase/inst/include/Common" -fPIC  -falign-functions=64 -Wall -g -O2  -c jaspContainer.cpp -o jaspContainer.o
+In file included from jaspContainer.cpp:1:
+In file included from ./jaspContainer.h:2:
+In file included from ./jaspObject.h:3:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/Rcpp.h:27:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/RcppCommon.h:30:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/Rcpp/r/headers.h:71:
+In file included from /Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include/R.h:70:
+/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include/R_ext/Boolean.h:62:36: warning: unknown warning group '-Wfixed-enum-extension', ignored [-Wunknown-warning-option]
+   62 | #  pragma clang diagnostic ignored "-Wfixed-enum-extension"
+      |                                    ^
+1 warning generated.
+"/Library/Developer/CommandLineTools/usr/bin/clang++" -arch arm64 -mmacosx-version-min=11.0 -isysroot "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk" -std=gnu++20 -I"/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include" -DNDEBUG  -I'/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include' -I/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/opt/R/arm64/include   -DRCPP_NO_SUGAR -I"/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/source/jaspBase/inst/include/Common" -fPIC  -falign-functions=64 -Wall -g -O2  -c jaspEnums.cpp -o jaspEnums.o
+"/Library/Developer/CommandLineTools/usr/bin/clang++" -arch arm64 -mmacosx-version-min=11.0 -isysroot "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk" -std=gnu++20 -I"/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include" -DNDEBUG  -I'/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include' -I/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/opt/R/arm64/include   -DRCPP_NO_SUGAR -I"/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/source/jaspBase/inst/include/Common" -fPIC  -falign-functions=64 -Wall -g -O2  -c jaspHtml.cpp -o jaspHtml.o
+In file included from jaspHtml.cpp:1:
+In file included from ./jaspHtml.h:2:
+In file included from ./jaspObject.h:3:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/Rcpp.h:27:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/RcppCommon.h:30:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/Rcpp/r/headers.h:71:
+In file included from /Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include/R.h:70:
+/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include/R_ext/Boolean.h:62:36: warning: unknown warning group '-Wfixed-enum-extension', ignored [-Wunknown-warning-option]
+   62 | #  pragma clang diagnostic ignored "-Wfixed-enum-extension"
+      |                                    ^
+1 warning generated.
+"/Library/Developer/CommandLineTools/usr/bin/clang++" -arch arm64 -mmacosx-version-min=11.0 -isysroot "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk" -std=gnu++20 -I"/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include" -DNDEBUG  -I'/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include' -I/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/opt/R/arm64/include   -DRCPP_NO_SUGAR -I"/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/source/jaspBase/inst/include/Common" -fPIC  -falign-functions=64 -Wall -g -O2  -c jaspObject.cpp -o jaspObject.o
+In file included from jaspObject.cpp:1:
+In file included from ./jaspObject.h:3:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/Rcpp.h:27:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/RcppCommon.h:30:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/Rcpp/r/headers.h:71:
+In file included from /Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include/R.h:70:
+/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include/R_ext/Boolean.h:62:36: warning: unknown warning group '-Wfixed-enum-extension', ignored [-Wunknown-warning-option]
+   62 | #  pragma clang diagnostic ignored "-Wfixed-enum-extension"
+      |                                    ^
+1 warning generated.
+"/Library/Developer/CommandLineTools/usr/bin/clang++" -arch arm64 -mmacosx-version-min=11.0 -isysroot "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk" -std=gnu++20 -I"/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include" -DNDEBUG  -I'/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include' -I/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/opt/R/arm64/include   -DRCPP_NO_SUGAR -I"/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/source/jaspBase/inst/include/Common" -fPIC  -falign-functions=64 -Wall -g -O2  -c jaspPlot.cpp -o jaspPlot.o
+In file included from jaspPlot.cpp:1:
+In file included from ./jaspPlot.h:2:
+In file included from ./jaspObject.h:3:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/Rcpp.h:27:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/RcppCommon.h:30:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/Rcpp/r/headers.h:71:
+In file included from /Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include/R.h:70:
+/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include/R_ext/Boolean.h:62:36: warning: unknown warning group '-Wfixed-enum-extension', ignored [-Wunknown-warning-option]
+   62 | #  pragma clang diagnostic ignored "-Wfixed-enum-extension"
+      |                                    ^
+1 warning generated.
+"/Library/Developer/CommandLineTools/usr/bin/clang++" -arch arm64 -mmacosx-version-min=11.0 -isysroot "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk" -std=gnu++20 -I"/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include" -DNDEBUG  -I'/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include' -I/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/opt/R/arm64/include   -DRCPP_NO_SUGAR -I"/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/source/jaspBase/inst/include/Common" -fPIC  -falign-functions=64 -Wall -g -O2  -c jaspQmlSource.cpp -o jaspQmlSource.o
+In file included from jaspQmlSource.cpp:1:
+In file included from ./jaspQmlSource.h:4:
+In file included from ./jaspObject.h:3:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/Rcpp.h:27:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/RcppCommon.h:30:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/Rcpp/r/headers.h:71:
+In file included from /Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include/R.h:70:
+/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include/R_ext/Boolean.h:62:36: warning: unknown warning group '-Wfixed-enum-extension', ignored [-Wunknown-warning-option]
+   62 | #  pragma clang diagnostic ignored "-Wfixed-enum-extension"
+      |                                    ^
+1 warning generated.
+"/Library/Developer/CommandLineTools/usr/bin/clang++" -arch arm64 -mmacosx-version-min=11.0 -isysroot "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk" -std=gnu++20 -I"/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include" -DNDEBUG  -I'/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include' -I/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/opt/R/arm64/include   -DRCPP_NO_SUGAR -I"/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/source/jaspBase/inst/include/Common" -fPIC  -falign-functions=64 -Wall -g -O2  -c jaspReport.cpp -o jaspReport.o
+1 warning generated.
+"/Library/Developer/CommandLineTools/usr/bin/clang++" -arch arm64 -mmacosx-version-min=11.0 -isysroot "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk" -std=gnu++20 -I"/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include" -DNDEBUG  -I'/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include' -I/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/opt/R/arm64/include   -DRCPP_NO_SUGAR -I"/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/source/jaspBase/inst/include/Common" -fPIC  -falign-functions=64 -Wall -g -O2  -c jaspResults.cpp -o jaspResults.o
+In file included from jaspReport.cpp:1:
+In file included from ./jaspReport.h:2:
+In file included from ./jaspObject.h:3:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/Rcpp.h:27:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/RcppCommon.h:30:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/Rcpp/r/headers.h:71:
+In file included from /Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include/R.h:70:
+/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include/R_ext/Boolean.h:62:36: warning: unknown warning group '-Wfixed-enum-extension', ignored [-Wunknown-warning-option]
+   62 | #  pragma clang diagnostic ignored "-Wfixed-enum-extension"
+      |                                    ^
+In file included from jaspResults.cpp:2:
+In file included from ./jaspModuleRegistration.h:1:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/Rcpp.h:27:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/RcppCommon.h:30:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/Rcpp/r/headers.h:71:
+In file included from /Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include/R.h:70:
+/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include/R_ext/Boolean.h:62:36: warning: unknown warning group '-Wfixed-enum-extension', ignored [-Wunknown-warning-option]
+   62 | #  pragma clang diagnostic ignored "-Wfixed-enum-extension"
+      |                                    ^
+1 warning generated.
+"/Library/Developer/CommandLineTools/usr/bin/clang++" -arch arm64 -mmacosx-version-min=11.0 -isysroot "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk" -std=gnu++20 -I"/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include" -DNDEBUG  -I'/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include' -I/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/opt/R/arm64/include   -DRCPP_NO_SUGAR -I"/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/source/jaspBase/inst/include/Common" -fPIC  -falign-functions=64 -Wall -g -O2  -c jaspState.cpp -o jaspState.o
+In file included from jaspState.cpp:1:
+In file included from ./jaspState.h:2:
+In file included from ./jaspObject.h:3:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/Rcpp.h:27:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/RcppCommon.h:30:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/Rcpp/r/headers.h:71:
+In file included from /Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include/R.h:70:
+/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include/R_ext/Boolean.h:62:36: warning: unknown warning group '-Wfixed-enum-extension', ignored [-Wunknown-warning-option]
+   62 | #  pragma clang diagnostic ignored "-Wfixed-enum-extension"
+      |                                    ^
+1 warning generated.
+"/Library/Developer/CommandLineTools/usr/bin/clang++" -arch arm64 -mmacosx-version-min=11.0 -isysroot "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk" -std=gnu++20 -I"/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include" -DNDEBUG  -I'/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include' -I/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/opt/R/arm64/include   -DRCPP_NO_SUGAR -I"/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/source/jaspBase/inst/include/Common" -fPIC  -falign-functions=64 -Wall -g -O2  -c jaspTable.cpp -o jaspTable.o
+In file included from jaspTable.cpp:1:
+In file included from ./jaspTable.h:2:
+In file included from ./jaspObject.h:3:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/Rcpp.h:27:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/RcppCommon.h:30:
+In file included from /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include/Rcpp/r/headers.h:71:
+In file included from /Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include/R.h:70:
+/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include/R_ext/Boolean.h:62:36: warning: unknown warning group '-Wfixed-enum-extension', ignored [-Wunknown-warning-option]
+   62 | #  pragma clang diagnostic ignored "-Wfixed-enum-extension"
+      |                                    ^
+jaspTable.cpp:1225:28: warning: unused variable 'fields' [-Wunused-variable]
+ 1225 |                         for(const tableFields & fields : symbolRest.second)
+      |                                                 ^~~~~~
+2 warnings generated.
+"/Library/Developer/CommandLineTools/usr/bin/clang++" -arch arm64 -mmacosx-version-min=11.0 -isysroot "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk" -std=gnu++20 -I"/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/include" -DNDEBUG  -I'/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library/Rcpp/include' -I/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/opt/R/arm64/include   -DRCPP_NO_SUGAR -I"/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/source/jaspBase/inst/include/Common" -fPIC  -falign-functions=64 -Wall -g -O2  -c ../inst/include/Common/columntype.cpp -o ../inst/include/Common/columntype.o
+1 warning generated.
+/Library/Developer/CommandLineTools/usr/bin/clang++ -arch arm64 -mmacosx-version-min=11.0 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -std=gnu++20 -dynamiclib -Wl,-headerpad_max_install_names -undefined dynamic_lookup -L/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib -L/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/opt/R/arm64/lib -o jaspBase.so RcppExports.o jaspColumn.o jaspContainer.o jaspEnums.o jaspHtml.o jaspObject.o jaspPlot.o jaspQmlSource.o jaspReport.o jaspResults.o jaspState.o jaspTable.o ../inst/include/Common/columntype.o -F/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/../../../../ -framework R
+installing to /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/library/00LOCK-jaspBase/00new/jaspBase/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+Warning in file.copy(file.path(R.home("doc"), "html", "R.css"), outman) :
+  problem copying /Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/doc/html/R.css to /private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/library/00LOCK-jaspBase/00new/jaspBase/html/R.css: No such file or directory
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (jaspBase)

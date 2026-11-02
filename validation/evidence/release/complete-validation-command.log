@@ -1,0 +1,18 @@
+RUN preflight
+PASS preflight (9s)
+RUN smoke
+PASS smoke (4s)
+RUN prediction-support
+PASS prediction-support (4s)
+RUN build-reference
+PASS build-reference (411s)
+RUN check-independent
+PASS check-independent (1s)
+RUN observed-fit
+PASS observed-fit (4s)
+RUN jasp-output
+PASS jasp-output (3s)
+RUN observed-plot
+PASS observed-plot (4s)
+Created START-HERE.html for 0.1.0: 14 cases; 150 reference checks and all five regression scripts passed.
+Completed: /private/tmp/jaspTrajectories-public-beta-0.1.0/source/jaspTrajectories/validation/START-HERE.html

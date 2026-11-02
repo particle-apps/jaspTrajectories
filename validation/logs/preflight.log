@@ -1,0 +1,446 @@
+$moduleVersion
+[1] "0.1.0"
+
+$lcmmVersion
+[1] "2.2.2"
+
+$rVersion
+[1] "4.5.2"
+
+$platform
+[1] "aarch64-apple-darwin20"
+
+$startedUTC
+[1] "2026-11-02T05:20:31Z"
+
+$freshReferenceFits
+[1] TRUE
+
+$sourceVersionMatchesInstalled
+[1] TRUE
+
+$packages
+$packages$jaspTrajectories
+[1] "0.1.0"
+
+$packages$lcmm
+[1] "2.2.2"
+
+$packages$jaspBase
+[1] "0.20.4"
+
+$packages$ggplot2
+[1] "4.0.1"
+
+$packages$nlme
+[1] "3.1.168"
+
+$packages$MASS
+[1] "7.3.65"
+
+$packages$jsonlite
+[1] "2.0.0"
+
+
+$dependencyFileMD5
+$dependencyFileMD5$`jaspBase/libs/jaspBase.so`
+[1] "e2024f9787bf54011e26b75b0d7e5b49"
+
+$dependencyFileMD5$`ragg/LICENSE.libdeflate`
+[1] "89f8c510215440fe2f208fba4afe07e0"
+
+
+$sourceBuildProvenance
+$sourceBuildProvenance$schema_version
+[1] 1
+
+$sourceBuildProvenance$status
+[1] "PASS"
+
+$sourceBuildProvenance$started_utc
+[1] "2026-11-02T05:18:49.476068+00:00"
+
+$sourceBuildProvenance$jaspbase_version
+[1] "0.20.4"
+
+$sourceBuildProvenance$jaspbase_commit
+[1] "74daf64143f4f22d4f0e1b0a8163e6a892873fc8"
+
+$sourceBuildProvenance$common_commit
+[1] "1204d1892b1233af145bb548fe80719f331ea693"
+
+$sourceBuildProvenance$common_files_sha256
+$sourceBuildProvenance$common_files_sha256$CMakeLists.txt
+[1] "00fba3875397cc7edb389f062eeeb203f681e6dd64d4a6b650f6d224040b48fd"
+
+$sourceBuildProvenance$common_files_sha256$appinfo.cpp.in
+[1] "1ac467c16ca8999ffc55d28ff6521e7f5ed172cd83c2a3156887761ff1836ada"
+
+$sourceBuildProvenance$common_files_sha256$appinfo.h
+[1] "ceb3aa8168297eb305c3e0f51392c6e4f6085eee0aa896d0a6e8b7727fbac0ef"
+
+$sourceBuildProvenance$common_files_sha256$columnencoder.cpp
+[1] "06f6c8dcc26d0ab4573b636d8dc9573a2ba3cf10f8123626fd1f0af75110a786"
+
+$sourceBuildProvenance$common_files_sha256$columnencoder.h
+[1] "078b534bd3f91ef11c95f86781ca169c2d542e604cddd866b49d1c407328337d"
+
+$sourceBuildProvenance$common_files_sha256$columnencodercontext.cpp
+[1] "226aafe9e1a2ebd5439061f61d720fd96302d001ef01de735134b4921a444f0c"
+
+$sourceBuildProvenance$common_files_sha256$columnencodercontext.h
+[1] "4f65735f620104857816be16df63ec4c21182f8f4a5cdbf94ab1c244b5d30b19"
+
+$sourceBuildProvenance$common_files_sha256$columntype.cpp
+[1] "7197ff620229f468ea2a790377ebd67f84178870ad01b3ffbfb5af08886c0019"
+
+$sourceBuildProvenance$common_files_sha256$columntype.h
+[1] "bcd4ca0c4dc727d805fcf021ad64f0d349083863d87db2b87e421406c6c45256"
+
+$sourceBuildProvenance$common_files_sha256$common.h
+[1] "a3234cb9a169db7c0d78f291ea147e332202950007cb4b3650acef3d5da5304f"
+
+$sourceBuildProvenance$common_files_sha256$dirs.cpp
+[1] "c24978c9af6d6d78b0d96bec0a560b8f83c7cbf1082a7b726fb68d8f4824a0c8"
+
+$sourceBuildProvenance$common_files_sha256$dirs.h
+[1] "005ff1524feca522101b7bb1662560e67cd0b5679c4f456f3ad1e8a2b39d0525"
+
+$sourceBuildProvenance$common_files_sha256$enginedefinitions.cpp
+[1] "819fcd25f410868d1b5e076fc47e1530df9a904182059da34199c4497284db7a"
+
+$sourceBuildProvenance$common_files_sha256$enginedefinitions.h
+[1] "7c9483c4c269a8638d3c6e3e45c5d8d10e1ca3c3fe0a5f3e3cad68b18ff6cc9e"
+
+$sourceBuildProvenance$common_files_sha256$enumutilities.h
+[1] "cbe4db6d4cf6e2fec104443ae1be7a11cb523a0953db1596a764afb5c4e45ce8"
+
+$sourceBuildProvenance$common_files_sha256$`json/allocator.h`
+[1] "bb272e8f679d50a416ed49a5b6e8bb7a46aaef4887a6b08f6fe733092e1c4bf7"
+
+$sourceBuildProvenance$common_files_sha256$`json/assertions.h`
+[1] "ea30b8fb30ef70a52a6435f6e6efbc37de03555fa192b33832e65cbd159b68bb"
+
+$sourceBuildProvenance$common_files_sha256$`json/config.h`
+[1] "a607e32e34497e2c51df1c61e6627760618d7d6964d9f47dfa8165ad305063b9"
+
+$sourceBuildProvenance$common_files_sha256$`json/forwards.h`
+[1] "4e5144062f296c821107af272c39df31b7ac6fcfefbeb66637958738fc09a117"
+
+$sourceBuildProvenance$common_files_sha256$`json/json.h`
+[1] "05ccb35afa55a068f8cc2a195db46d89a7f6a458d1943ae009465834c6404a67"
+
+$sourceBuildProvenance$common_files_sha256$`json/json_features.h`
+[1] "9a3a209af311356da182e0b768c7c1f5993863df9d2d0f9dfa8f96d492282494"
+
+$sourceBuildProvenance$common_files_sha256$`json/json_reader.cpp`
+[1] "aa26cca65852d118d61a087a86e41523f7f60075109fcb8d9349f461c3013e12"
+
+$sourceBuildProvenance$common_files_sha256$`json/json_tool.h`
+[1] "dd86b80bad3a960b34589b97047c63be63a34db1fcdd51a93dbc6aef150cfaf8"
+
+$sourceBuildProvenance$common_files_sha256$`json/json_value.cpp`
+[1] "140d9f2ed741d87d9492c0429c771209340461dad88d19f57a59026b2e2e4a33"
+
+$sourceBuildProvenance$common_files_sha256$`json/json_valueiterator.inl`
+[1] "5b37b47184f65f7a01ea9dbdc454a5be0eee472eff47829f3ffd06de798deaa4"
+
+$sourceBuildProvenance$common_files_sha256$`json/json_writer.cpp`
+[1] "47213a579a4fb3eae57c79a5cc24ba2d654f74f98d9161123f0923648a82092d"
+
+$sourceBuildProvenance$common_files_sha256$`json/reader.h`
+[1] "f6db8a2cd6bcb54ca4b9af45c30a05318e3cf984b97da2155c19ba9b0122adfa"
+
+$sourceBuildProvenance$common_files_sha256$`json/value.h`
+[1] "dcb19d821d02b450c1c9bdf15ed79c013eec4c401a7d1ed89b0e6991ba281f51"
+
+$sourceBuildProvenance$common_files_sha256$`json/version.h`
+[1] "752cdd61cb97aca4dcbb6d83d5b91849fcfe01e94bdf3048d543baa7a17fa001"
+
+$sourceBuildProvenance$common_files_sha256$`json/writer.h`
+[1] "220156ea68f6ddb135bcace0c529ce6888008f0ceb0e09eb1d8e28ac35e0ffb9"
+
+$sourceBuildProvenance$common_files_sha256$log.cpp
+[1] "e7024dd11ba54de16c91f853d97334a8011013a9cf8c7c8b7ef558c23bb9f2d7"
+
+$sourceBuildProvenance$common_files_sha256$log.h
+[1] "9ee69f66941bb5adfb60751313f53a3baf82d7a38a9339140e053947e116bf5f"
+
+$sourceBuildProvenance$common_files_sha256$otoolstuff.cpp
+[1] "4a51218410046e5c9122c56fb8a92ad5a182c01493d94c0f39289c51db04c903"
+
+$sourceBuildProvenance$common_files_sha256$otoolstuff.h
+[1] "63ae2f19c0fba68ad6380887702e41c29a52c31e73c64c3d0ed7c7d9880762c0"
+
+$sourceBuildProvenance$common_files_sha256$processinfo.cpp
+[1] "dc9df84f30d655ee2dcb399491c80cf966f727f0428c31bb03997bd3fa03b81c"
+
+$sourceBuildProvenance$common_files_sha256$processinfo.h
+[1] "7b4a49bdf8c0e17c320e8d86a4c63a66552caffd36dc78f39e8ed0157a361621"
+
+$sourceBuildProvenance$common_files_sha256$r_functionwhitelist.cpp
+[1] "571405c05a8189cec7eb48de88326dc601fbb3ac8cfb3166aa7908f0b82f961e"
+
+$sourceBuildProvenance$common_files_sha256$r_functionwhitelist.h
+[1] "35788ac2d7fac9ee6c38801b650cf49d92e00f6f04cfc1e7b2fbeb0aafe956c2"
+
+$sourceBuildProvenance$common_files_sha256$stringutils.h
+[1] "859d8345a103e3586b16c4f0d70d0e974fcf0f74f20b5017514e556550718985"
+
+$sourceBuildProvenance$common_files_sha256$tempfiles.cpp
+[1] "c0e95bcbc62720a8c223d68281bc9ea119b89adfb05e792e7fc7b6a99cef46fa"
+
+$sourceBuildProvenance$common_files_sha256$tempfiles.h
+[1] "249f3d726fb671782a996168240631316c3436faeaf78b57dc899ddc1fa3f76e"
+
+$sourceBuildProvenance$common_files_sha256$timers.cpp
+[1] "c97ebd34eeae161d6b156cf4926231b5f57f9d230429f3f4d32760d34f63a104"
+
+$sourceBuildProvenance$common_files_sha256$timers.h
+[1] "91798f9bb694df676ee91e97b5886b548dba7122a0a61eb97e93f20c8265a3e8"
+
+$sourceBuildProvenance$common_files_sha256$utilenums.cpp
+[1] "3b08af4ac8f18558a18214824e4e9f5aacab97083ad515a0c806ff608c1203de"
+
+$sourceBuildProvenance$common_files_sha256$utilenums.h
+[1] "891f8e63797792798bc4b0f21f9f70efe4dfed325f3179ae715809e29cc7f29f"
+
+$sourceBuildProvenance$common_files_sha256$utils.cpp
+[1] "a392929432da300012fa92eb430df1618a6a36bc21531e5c98995c638aa6d139"
+
+$sourceBuildProvenance$common_files_sha256$utils.h
+[1] "89de54a0c35153feb88f1a9f6468d2d032eb70cd25474abdb5fb21579809cfbf"
+
+$sourceBuildProvenance$common_files_sha256$version.cpp
+[1] "ab43144da16072024770ecfdebadac509ab0bff407b93b63d2656e1e511ab407"
+
+$sourceBuildProvenance$common_files_sha256$version.h
+[1] "f57ccb4cc72e5aa8e12ff8b75af6e09a90f96a48b3164660175e969fd3429809"
+
+
+$sourceBuildProvenance$source_archives
+$sourceBuildProvenance$source_archives[[1]]
+$sourceBuildProvenance$source_archives[[1]]$name
+[1] "jaspBase"
+
+$sourceBuildProvenance$source_archives[[1]]$version
+[1] "0.20.4"
+
+$sourceBuildProvenance$source_archives[[1]]$archive
+[1] "github/jaspBase_0.20.4_74daf64143f4f22d4f0e1b0a8163e6a892873fc8.tar.gz"
+
+$sourceBuildProvenance$source_archives[[1]]$url
+[1] "https://codeload.github.com/jasp-stats/jaspBase/tar.gz/74daf64143f4f22d4f0e1b0a8163e6a892873fc8"
+
+$sourceBuildProvenance$source_archives[[1]]$sha256
+[1] "e6135e8d07b91415442b69639e457df90b4cc08f0f4da7a957c3df8c29bb4cfe"
+
+
+$sourceBuildProvenance$source_archives[[2]]
+$sourceBuildProvenance$source_archives[[2]]$name
+[1] "jasp-desktop"
+
+$sourceBuildProvenance$source_archives[[2]]$version
+[1] "0.99.0"
+
+$sourceBuildProvenance$source_archives[[2]]$archive
+[1] "build-context/jasp-desktop_0.99.0_1204d1892b1233af145bb548fe80719f331ea693.tar.gz"
+
+$sourceBuildProvenance$source_archives[[2]]$url
+[1] "https://codeload.github.com/jasp-stats/jasp-desktop/tar.gz/1204d1892b1233af145bb548fe80719f331ea693"
+
+$sourceBuildProvenance$source_archives[[2]]$sha256
+[1] "589108d79b2248641aff04d26caa78431f59e85f6a7d5bff1cad3136188ee45e"
+
+
+$sourceBuildProvenance$source_archives[[3]]
+$sourceBuildProvenance$source_archives[[3]]$name
+[1] "Rcpp"
+
+$sourceBuildProvenance$source_archives[[3]]$version
+[1] "1.1.1"
+
+$sourceBuildProvenance$source_archives[[3]]$archive
+[1] "cran/Rcpp_1.1.1.tar.gz"
+
+$sourceBuildProvenance$source_archives[[3]]$url
+[1] "https://cran.r-project.org/src/contrib/Archive/Rcpp/Rcpp_1.1.1.tar.gz"
+
+$sourceBuildProvenance$source_archives[[3]]$sha256
+[1] "da0c616a71c82150397259516b2ea7558dbd31a5b4a217423ec9666b3a0fcfb7"
+
+
+
+$sourceBuildProvenance$input_lock_sha256
+[1] "27450339e2f27f114122f8a7de31941580be5f54bc390890c02d25dbfa7d6ee5"
+
+$sourceBuildProvenance$recipe_sha256
+[1] "68dfa332790b85d2290b1d7bf2c707e596eab3fff6b53c6071d636f3e0a85ea8"
+
+$sourceBuildProvenance$original_rcpp_tree_sha256
+[1] "e6a5427f31009144a4de72a0d174967de10729b6bba6c34064d21bceaab5ccb6"
+
+$sourceBuildProvenance$original_jaspbase_tree_sha256
+[1] "c717033d909beace441e49a8743ab2a1de7fea4d88349b82e4c972854171afcb"
+
+$sourceBuildProvenance$rcpp_headers_version
+[1] "1.1.1"
+
+$sourceBuildProvenance$rcpp_header_count
+[1] 366
+
+$sourceBuildProvenance$toolchain
+$sourceBuildProvenance$toolchain$compiler
+[1] "Apple clang version 21.0.0 (clang-2100.1.1.101)\nTarget: arm64-apple-darwin25.6.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin"
+
+$sourceBuildProvenance$toolchain$compiler_sha256
+[1] "1220c0afafa12a6ae599d097ee7cf8b87c6b4d8e3fbb9783cee6b319a80683ba"
+
+$sourceBuildProvenance$toolchain$sdk
+[1] "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
+
+$sourceBuildProvenance$toolchain$sdk_version
+[1] "26.5"
+
+$sourceBuildProvenance$toolchain$r_version
+[1] "4.5.2"
+
+$sourceBuildProvenance$toolchain$r_executable_sha256
+[1] "3448467c4bb3c60f5afb0a5a2afb2728a9397d53a698716f61de915aff39ef8f"
+
+$sourceBuildProvenance$toolchain$r_makeconf_sha256
+[1] "42a1e2b16a017102cfae30dc88bc63d0a95a415a06948e24e4988f959c82feb4"
+
+$sourceBuildProvenance$toolchain$cxx_standard
+[1] "C++20"
+
+$sourceBuildProvenance$toolchain$architecture
+[1] "arm64"
+
+$sourceBuildProvenance$toolchain$deployment_target
+[1] "11.0"
+
+$sourceBuildProvenance$toolchain$user_makevars
+[1] "CXX20 = \"/Library/Developer/CommandLineTools/usr/bin/clang++\" -arch arm64 -mmacosx-version-min=11.0 -isysroot \"/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk\"\nCXX20FLAGS = -falign-functions=64 -Wall -g -O2\nMAKEFLAGS = -j2\n"
+
+
+$sourceBuildProvenance$source_changes
+[1] "Added 49 unchanged pinned Common files; no original jaspBase source files edited. configure generates src/Makevars."
+
+$sourceBuildProvenance$install_log
+[1] "jaspbase-source-build/install.log"
+
+$sourceBuildProvenance$load_log
+[1] "jaspbase-source-build/load-check.log"
+
+$sourceBuildProvenance$installed_common_directory
+[1] "include/Common"
+
+$sourceBuildProvenance$install_command
+$sourceBuildProvenance$install_command[[1]]
+[1] "/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R"
+
+$sourceBuildProvenance$install_command[[2]]
+[1] "CMD"
+
+$sourceBuildProvenance$install_command[[3]]
+[1] "INSTALL"
+
+$sourceBuildProvenance$install_command[[4]]
+[1] "--no-html"
+
+$sourceBuildProvenance$install_command[[5]]
+[1] "--no-multiarch"
+
+$sourceBuildProvenance$install_command[[6]]
+[1] "--with-keep.source"
+
+$sourceBuildProvenance$install_command[[7]]
+[1] "--library=/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/library"
+
+$sourceBuildProvenance$install_command[[8]]
+[1] "/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/source/jaspBase"
+
+
+$sourceBuildProvenance$configuration
+$sourceBuildProvenance$configuration$JASP_R_HOME
+[1] "/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources"
+
+$sourceBuildProvenance$configuration$R_HOME
+[1] "/Applications/JASP.app/Contents/Frameworks/R.framework/Versions/4.5-arm64/Resources"
+
+$sourceBuildProvenance$configuration$R_LIBS
+[1] ""
+
+$sourceBuildProvenance$configuration$R_LIBS_USER
+[1] "/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/library:/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/build-library:/private/tmp/jaspTrajectories-public-beta-0.1.0/build/library"
+
+$sourceBuildProvenance$configuration$R_LIBS_SITE
+[1] "/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/empty-site"
+
+$sourceBuildProvenance$configuration$R_ENVIRON_USER
+[1] "/dev/null"
+
+$sourceBuildProvenance$configuration$R_ENVIRON
+[1] "/dev/null"
+
+$sourceBuildProvenance$configuration$R_PROFILE_USER
+[1] "/dev/null"
+
+$sourceBuildProvenance$configuration$R_PROFILE
+[1] "/dev/null"
+
+$sourceBuildProvenance$configuration$R_MAKEVARS_USER
+[1] "/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/Makevars"
+
+$sourceBuildProvenance$configuration$R_MAKEVARS_SITE
+[1] "/dev/null"
+
+$sourceBuildProvenance$configuration$INCLUDE_DIR
+[1] "/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/source/jaspBase/inst/include/Common"
+
+$sourceBuildProvenance$configuration$JASP_R_INTERFACE_LIBRARY
+[1] ""
+
+$sourceBuildProvenance$configuration$SDKROOT
+[1] "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
+
+$sourceBuildProvenance$configuration$MAKE
+[1] "make -j2"
+
+
+$sourceBuildProvenance$install_exit_code
+[1] 0
+
+$sourceBuildProvenance$binary_sha256
+[1] "4182d34d9c25dcebdbd15d33c926745e8552b6a6f1b256e9bf8f0e69ba427587"
+
+$sourceBuildProvenance$binary_architecture
+[1] "arm64"
+
+$sourceBuildProvenance$binary_linkage
+[1] "/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/library/jaspBase/libs/jaspBase.so:\n\tjaspBase.so (compatibility version 0.0.0, current version 0.0.0)\n\t@executable_path/../Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libR.dylib (compatibility version 4.5.0, current version 4.5.2)\n\t/usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 2100.43.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1356.0.0)"
+
+$sourceBuildProvenance$final_rcpp_tree_sha256
+[1] "e6a5427f31009144a4de72a0d174967de10729b6bba6c34064d21bceaab5ccb6"
+
+$sourceBuildProvenance$install_log_sha256
+[1] "938d0bd3621e41283328aed58efe0b3fd16d79d6dd4754918e372c2a597b8912"
+
+$sourceBuildProvenance$load_log_sha256
+[1] "d919b55bbe3a3e9b85a9806444cc72e0457ea7f6629e1645858e6d8e03be1e4e"
+
+$sourceBuildProvenance$generated_makevars
+[1] "CXX_STD = CXX20\nPKG_CXXFLAGS = -DRCPP_NO_SUGAR -I\"/private/tmp/jaspTrajectories-public-beta-0.1.0/build/jaspbase-source-build/source/jaspBase/inst/include/Common\"\nMAKEFLAGS=-j\n\n# Include all C++ files in src/ and JASP Common sources\nSOURCES=RcppExports.cpp jaspColumn.cpp jaspContainer.cpp jaspEnums.cpp jaspHtml.cpp jaspObject.cpp jaspPlot.cpp jaspQmlSource.cpp jaspReport.cpp jaspResults.cpp jaspState.cpp jaspTable.cpp  ../inst/include/Common/columntype.cpp\n\n# Obtain the object files\nOBJECTS=$(SOURCES:.cpp=.o)\n\n# Make the shared object\nall: $(SHLIB)\n\n# Provide recipe to remove all objects\nclean:\n\t@rm -f $(OBJECTS)\n"
+
+$sourceBuildProvenance$finished_utc
+[1] "2026-11-02T05:19:39.671085+00:00"
+
+$sourceBuildProvenance$installed_jaspbase_tree_sha256
+[1] "4ea94c769137cc4cea2a16edcb61da62319017887200f443d0f345ca46d6db12"
+
+$sourceBuildProvenance$installed_provenance_sha256
+[1] "d9ee09107ed2230eba8629340d9b31a3dd1bca44cf1cbffd5c7ae03e6490cff0"
+
+
+PASS: required packages resolve from the selected library or embedded R; source/installed versions match.
