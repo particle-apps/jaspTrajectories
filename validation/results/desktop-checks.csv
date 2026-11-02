@@ -1,0 +1,2 @@
+check,status,evidence,notes,moduleVersion,sourceFingerprint,installerSHA256
+Desktop walkthrough for 0.1.0,NOT PERFORMED,,"Interactive CSV import, option changes, and saving/reopening JASP documents have not been verified for this installer. Native installation and output checks are recorded separately.",0.1.0,f8af728b5d7459e6bf8007d81fcaa5c7b3ef852cb94933bb08c785ee694bc02a,553249c926ab3aad8d7b05c46df67cf481c923f71d16708ffb2284ca62d8e42c

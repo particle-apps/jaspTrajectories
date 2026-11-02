@@ -1,0 +1,23 @@
+"case","check","maximumAbsoluteDifference","tolerance","passed"
+"C01","independent subject-mixture log-likelihood",4.53588677373773e-06,1e-04,TRUE
+"C01","independent posterior probabilities",0,1e-06,TRUE
+"C02","independent subject-mixture log-likelihood",4.53588722848508e-06,1e-04,TRUE
+"C02","independent posterior probabilities",0,1e-06,TRUE
+"C03","independent subject-mixture log-likelihood",4.53588791060611e-06,1e-04,TRUE
+"C03","independent posterior probabilities",0,1e-06,TRUE
+"C04","independent subject-mixture log-likelihood",4.53588734217192e-06,1e-04,TRUE
+"C04","independent posterior probabilities",8.88178419700125e-16,1e-06,TRUE
+"C05","independent subject-mixture log-likelihood",4.53588802429294e-06,1e-04,TRUE
+"C05","independent posterior probabilities",0,1e-06,TRUE
+"C06","independent subject-mixture log-likelihood",4.53588768323243e-06,1e-04,TRUE
+"C06","independent posterior probabilities",2.1094237467878e-15,1e-06,TRUE
+"C07","independent subject-mixture log-likelihood",4.53588722848508e-06,1e-04,TRUE
+"C07","independent posterior probabilities",0,1e-06,TRUE
+"O01","independent subject-mixture log-likelihood",3.23710401062272e-06,1e-04,TRUE
+"O01","independent posterior probabilities",0,1e-06,TRUE
+"O02","independent subject-mixture log-likelihood",5.25874384038616e-08,1e-04,TRUE
+"O02","independent posterior probabilities",6.46960084116355e-08,1e-06,TRUE
+"M01","independent subject-mixture log-likelihood",4.3967486362817e-06,1e-04,TRUE
+"M01","independent posterior probabilities",0,1e-06,TRUE
+"M02","independent subject-mixture log-likelihood",4.09064671202941e-06,1e-04,TRUE
+"M02","independent posterior probabilities",0,1e-06,TRUE

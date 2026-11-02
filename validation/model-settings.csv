@@ -1,0 +1,15 @@
+"case","file","outcomeType","model","classes","degree","randomEffects","covariance","missing","classVariance","starts","startIterations","maxIterations","seed"
+"C01","lcmm-continuous.csv","continuous","lcga",1,"linear","intercept","unstructured","available",FALSE,30,50,1000,12345
+"C02","lcmm-continuous.csv","continuous","lcga",1,"quadratic","intercept","unstructured","available",FALSE,30,50,1000,12345
+"C03","lcmm-continuous.csv","continuous","lcga",1,"cubic","intercept","unstructured","available",FALSE,30,50,1000,12345
+"C04","lcmm-continuous.csv","continuous","lcga",2,"linear","intercept","unstructured","available",FALSE,30,50,1000,12345
+"C05","lcmm-continuous.csv","continuous","gmm",1,"linear","interceptSlope","unstructured","available",FALSE,30,50,1000,12345
+"C06","lcmm-continuous.csv","continuous","gmm",2,"linear","interceptSlope","unstructured","available",FALSE,30,50,1000,12345
+"C07","lcmm-continuous.csv","continuous","gmm",1,"linear","interceptSlope","diagonal","available",FALSE,30,50,1000,12345
+"O01","lcmm-ordinal.csv","ordinal","lcga",1,"quadratic","intercept","unstructured","available",FALSE,30,50,1000,12345
+"O02","lcmm-ordinal.csv","ordinal","lcga",2,"quadratic","intercept","unstructured","available",FALSE,30,50,1000,12345
+"O03","lcmm-ordinal.csv","ordinal","gmm",1,"quadratic","intercept","unstructured","available",FALSE,30,50,1000,12345
+"M01","lcmm-continuous-missing.csv","continuous","lcga",1,"linear","intercept","unstructured","available",FALSE,30,50,1000,12345
+"M02","lcmm-continuous-missing.csv","continuous","lcga",1,"linear","intercept","unstructured","completeSubjects",FALSE,30,50,1000,12345
+"P01","paquid-ordinal.csv","ordinal","gmm",1,"linear","intercept","unstructured","available",FALSE,30,50,1000,12345
+"P02","paquid-ordinal.csv","ordinal","gmm",1,"linear","intercept","unstructured","completeSubjects",FALSE,30,50,1000,12345

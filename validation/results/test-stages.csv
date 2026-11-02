@@ -1,0 +1,9 @@
+stage,status,exitCode,elapsedSeconds,log
+preflight,PASS,0,9,logs/preflight.log
+smoke,PASS,0,4,logs/smoke.log
+prediction-support,PASS,0,4,logs/prediction-support.log
+build-reference,PASS,0,411,logs/build-reference.log
+check-independent,PASS,0,1,logs/check-independent.log
+observed-fit,PASS,0,4,logs/observed-fit.log
+jasp-output,PASS,0,3,logs/jasp-output.log
+observed-plot,PASS,0,4,logs/observed-plot.log

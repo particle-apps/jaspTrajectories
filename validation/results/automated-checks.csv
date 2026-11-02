@@ -1,0 +1,129 @@
+"case","check","maximumAbsoluteDifference","tolerance","passed"
+"C01","native versus module log-likelihood",0,1e-05,TRUE
+"C01","native versus module full parameter vector (same seed/class order)",0,1e-04,TRUE
+"C01","independent sample counts",0,0,TRUE
+"C01","convergence code",0,0,TRUE
+"C01","AIC formula",0,1e-07,TRUE
+"C01","BIC formula uses subjects",0,1e-07,TRUE
+"C01","mean-trajectory predictions",0,1e-04,TRUE
+"C01","posterior class probabilities",0,1e-04,TRUE
+"C01","independent estimator log-likelihood",4.53593156635179e-06,0.001,TRUE
+"C01","independent estimator fixed effects",7.16906223141578e-06,0.001,TRUE
+"C02","native versus module log-likelihood",0,1e-05,TRUE
+"C02","native versus module full parameter vector (same seed/class order)",0,1e-04,TRUE
+"C02","independent sample counts",0,0,TRUE
+"C02","convergence code",0,0,TRUE
+"C02","AIC formula",0,1e-07,TRUE
+"C02","BIC formula uses subjects",0,1e-07,TRUE
+"C02","mean-trajectory predictions",0,1e-04,TRUE
+"C02","posterior class probabilities",0,1e-04,TRUE
+"C02","independent estimator log-likelihood",4.53588904747448e-06,0.001,TRUE
+"C02","independent estimator fixed effects",5.0568890666014e-06,0.001,TRUE
+"C03","native versus module log-likelihood",0,1e-05,TRUE
+"C03","native versus module full parameter vector (same seed/class order)",0,1e-04,TRUE
+"C03","independent sample counts",0,0,TRUE
+"C03","convergence code",0,0,TRUE
+"C03","AIC formula",0,1e-07,TRUE
+"C03","BIC formula uses subjects",0,1e-07,TRUE
+"C03","mean-trajectory predictions",0,1e-04,TRUE
+"C03","posterior class probabilities",0,1e-04,TRUE
+"C03","independent estimator log-likelihood",4.53588768323243e-06,0.001,TRUE
+"C03","independent estimator fixed effects",1.09772109624373e-07,0.001,TRUE
+"C04","native versus module log-likelihood",0,1e-05,TRUE
+"C04","native versus module full parameter vector (same seed/class order)",0,1e-04,TRUE
+"C04","independent sample counts",0,0,TRUE
+"C04","convergence code",0,0,TRUE
+"C04","AIC formula",0,1e-07,TRUE
+"C04","BIC formula uses subjects",0,1e-07,TRUE
+"C04","mean-trajectory predictions",0,1e-04,TRUE
+"C04","posterior class probabilities",0,1e-04,TRUE
+"C05","native versus module log-likelihood",0,1e-05,TRUE
+"C05","native versus module full parameter vector (same seed/class order)",0,1e-04,TRUE
+"C05","independent sample counts",0,0,TRUE
+"C05","convergence code",0,0,TRUE
+"C05","AIC formula",0,1e-07,TRUE
+"C05","BIC formula uses subjects",0,1e-07,TRUE
+"C05","mean-trajectory predictions",0,1e-04,TRUE
+"C05","posterior class probabilities",0,1e-04,TRUE
+"C05","independent estimator log-likelihood",4.53549648682383e-06,0.001,TRUE
+"C05","independent estimator fixed effects",3.35665329753709e-07,0.001,TRUE
+"C06","native versus module log-likelihood",0,1e-05,TRUE
+"C06","native versus module full parameter vector (same seed/class order)",0,1e-04,TRUE
+"C06","independent sample counts",0,0,TRUE
+"C06","convergence code",0,0,TRUE
+"C06","AIC formula",0,1e-07,TRUE
+"C06","BIC formula uses subjects",0,1e-07,TRUE
+"C06","mean-trajectory predictions",0,1e-04,TRUE
+"C06","posterior class probabilities",0,1e-04,TRUE
+"C07","native versus module log-likelihood",0,1e-05,TRUE
+"C07","native versus module full parameter vector (same seed/class order)",0,1e-04,TRUE
+"C07","independent sample counts",0,0,TRUE
+"C07","convergence code",0,0,TRUE
+"C07","AIC formula",0,1e-07,TRUE
+"C07","BIC formula uses subjects",0,1e-07,TRUE
+"C07","mean-trajectory predictions",0,1e-04,TRUE
+"C07","posterior class probabilities",0,1e-04,TRUE
+"C07","independent estimator log-likelihood",4.53586903859104e-06,0.001,TRUE
+"C07","independent estimator fixed effects",5.20693066441424e-08,0.001,TRUE
+"O01","native versus module log-likelihood",0,1e-05,TRUE
+"O01","native versus module full parameter vector (same seed/class order)",0,1e-04,TRUE
+"O01","independent sample counts",0,0,TRUE
+"O01","convergence code",0,0,TRUE
+"O01","AIC formula",0,1e-07,TRUE
+"O01","BIC formula uses subjects",0,1e-07,TRUE
+"O01","mean-trajectory predictions",0,1e-04,TRUE
+"O01","posterior class probabilities",0,1e-04,TRUE
+"O01","independent estimator log-likelihood",3.23709900840186e-06,0.001,TRUE
+"O01","independent estimator fixed effects",2.7823461135057e-07,0.001,TRUE
+"O02","native versus module log-likelihood",0,1e-05,TRUE
+"O02","native versus module full parameter vector (same seed/class order)",0,1e-04,TRUE
+"O02","independent sample counts",0,0,TRUE
+"O02","convergence code",0,0,TRUE
+"O02","AIC formula",0,1e-07,TRUE
+"O02","BIC formula uses subjects",0,1e-07,TRUE
+"O02","mean-trajectory predictions",0,1e-04,TRUE
+"O02","posterior class probabilities",0,1e-04,TRUE
+"O03","native versus module log-likelihood",0,1e-05,TRUE
+"O03","native versus module full parameter vector (same seed/class order)",0,1e-04,TRUE
+"O03","independent sample counts",0,0,TRUE
+"O03","convergence code",0,0,TRUE
+"O03","AIC formula",0,1e-07,TRUE
+"O03","BIC formula uses subjects",0,1e-07,TRUE
+"O03","mean-trajectory predictions",0,1e-04,TRUE
+"O03","posterior class probabilities",0,1e-04,TRUE
+"M01","native versus module log-likelihood",0,1e-05,TRUE
+"M01","native versus module full parameter vector (same seed/class order)",0,1e-04,TRUE
+"M01","independent sample counts",0,0,TRUE
+"M01","convergence code",0,0,TRUE
+"M01","AIC formula",0,1e-07,TRUE
+"M01","BIC formula uses subjects",0,1e-07,TRUE
+"M01","mean-trajectory predictions",0,1e-04,TRUE
+"M01","posterior class probabilities",0,1e-04,TRUE
+"M01","independent estimator log-likelihood",4.39683299191529e-06,0.001,TRUE
+"M01","independent estimator fixed effects",8.76349955136746e-06,0.001,TRUE
+"M02","native versus module log-likelihood",0,1e-05,TRUE
+"M02","native versus module full parameter vector (same seed/class order)",0,1e-04,TRUE
+"M02","independent sample counts",0,0,TRUE
+"M02","convergence code",0,0,TRUE
+"M02","AIC formula",0,1e-07,TRUE
+"M02","BIC formula uses subjects",0,1e-07,TRUE
+"M02","mean-trajectory predictions",0,1e-04,TRUE
+"M02","posterior class probabilities",0,1e-04,TRUE
+"M02","independent estimator log-likelihood",4.09072015372658e-06,0.001,TRUE
+"M02","independent estimator fixed effects",8.30017378539161e-06,0.001,TRUE
+"P01","native versus module log-likelihood",0,1e-05,TRUE
+"P01","native versus module full parameter vector (same seed/class order)",0,1e-04,TRUE
+"P01","independent sample counts",0,0,TRUE
+"P01","convergence code",0,0,TRUE
+"P01","AIC formula",0,1e-07,TRUE
+"P01","BIC formula uses subjects",0,1e-07,TRUE
+"P01","mean-trajectory predictions",0,1e-04,TRUE
+"P01","posterior class probabilities",0,1e-04,TRUE
+"P02","native versus module log-likelihood",0,1e-05,TRUE
+"P02","native versus module full parameter vector (same seed/class order)",0,1e-04,TRUE
+"P02","independent sample counts",0,0,TRUE
+"P02","convergence code",0,0,TRUE
+"P02","AIC formula",0,1e-07,TRUE
+"P02","BIC formula uses subjects",0,1e-07,TRUE
+"P02","mean-trajectory predictions",0,1e-04,TRUE
+"P02","posterior class probabilities",0,1e-04,TRUE
