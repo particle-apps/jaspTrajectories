@@ -1,0 +1,15 @@
+# Generated builds and dependency caches; retain public validation evidence.
+/build/
+/dist/
+/archive/
+/release-assets/
+*.JASPModule
+*.Rcheck/
+
+# Local editor/runtime files.
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+*.py[cod]
